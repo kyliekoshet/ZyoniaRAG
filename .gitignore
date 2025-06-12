@@ -1,3 +1,15 @@
-.env
-.venv
-/demo_chroma_db
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+.venv/
+
+# Local Databases
+demo_chroma_db/
+
+# OS-specific
+.DS_Store
