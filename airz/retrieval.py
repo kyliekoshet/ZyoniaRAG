@@ -1,5 +1,10 @@
 from langchain.vectorstores.base import VectorStore
 from langchain.schema import Document
+# from vector_store import build_chroma  
+# from loaders import load_any, split_docs 
+from pathlib import Path
+from airz.vector_store import build_chroma
+from airz.loaders import load_any, split_docs
 
 def get_retriever(
     store: VectorStore,
@@ -39,10 +44,6 @@ if __name__ == "__main__":
     print("Retrieval Demonstration")
     
     # 1. Set up a sample vector store
-    from vector_store import build_chroma
-    from loaders import load_any, split_docs
-    from pathlib import Path
-    
     print("\n1. Loading and preparing documents")
     docs = load_any("testing_docs/LangchainRetrieval.txt")
     chunks = split_docs(docs, chunk_size=300, overlap=20)
