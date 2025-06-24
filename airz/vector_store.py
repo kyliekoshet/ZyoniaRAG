@@ -2,8 +2,8 @@ from pathlib import Path
 from typing import Iterable
 from langchain_chroma import Chroma
 from langchain.schema import Document
-from embeddings import get_embedding_model
-from loaders import load_any, split_docs
+from airz.embeddings import get_embedding_model
+from airz.loaders import load_any, split_docs
 
 def build_chroma(
     docs: Iterable[Document],
