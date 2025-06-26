@@ -39,13 +39,13 @@ SEARCH_CATEGORIES = {
             r"está\s+limpio"
         ],
         "search_terms": [
-            "{neighborhood} clean streets well maintained neighborhood",
-            "{neighborhood} garbage collection street cleaning services",
-            "{neighborhood} public spaces maintenance cleanliness",
-            "{neighborhood} limpieza calles mantenimiento urbano",
-            "{neighborhood} neighborhood upkeep clean safe area",
-            "{neighborhood} waste management street maintenance",
-            "{neighborhood} well kept clean public areas"
+            "{neighborhood} street cleaning frequency maintenance services",
+            "{neighborhood} garbage collection waste management schedule",
+            "{neighborhood} litter problems cleanliness issues complaints",
+            "{neighborhood} municipal cleaning services street maintenance",
+            "{neighborhood} neighborhood upkeep street cleaning city",
+            "{neighborhood} waste management municipal services cleaning",
+            "{neighborhood} street sweeping garbage pickup schedule"
         ]
     },
     "public_perception": {
@@ -60,11 +60,13 @@ SEARCH_CATEGORIES = {
             r"experiencia.*vivir"
         ],
         "search_terms": [
-            "{neighborhood} resident reviews living experience",
-            "{neighborhood} locals opinions neighborhood life",
-            "{neighborhood} what people say about living",
-            "{neighborhood} opiniones residentes experiencia",
-            "{neighborhood} neighborhood reputation community feel"
+            "{neighborhood} residents forum community opinions locals",
+            "{neighborhood} living here locals perspective reddit experience",
+            "{neighborhood} neighborhood problems complaints residents issues",
+            "{neighborhood} what locals think about living community",
+            "{neighborhood} resident feedback community experience problems",
+            "{neighborhood} locals say about neighborhood living reality",
+            "{neighborhood} community forum residents complaints opinions"
         ]
     },
     "investment_potential": {
@@ -114,10 +116,10 @@ SEARCH_SETTINGS = {
     "max_results_per_category": 5,  # Number of search results per category
     "cache_ttl_hours": 24,  # Cache time-to-live in hours
     "retry_attempts": 3,  # Number of retry attempts per instance
-    "delay_between_searches": 3.0,  # Delay between searches (increased for rate limiting)
-    "fallback_delay": 5.0,  # Delay before trying next instance (increased)
-    "rate_limit_backoff": 10.0,  # Backoff time when rate limited
-    "max_searches_per_minute": 15  # Maximum searches per minute
+    "delay_between_searches": 5.0,  # Delay between searches (increased for parallel processing)
+    "fallback_delay": 8.0,  # Delay before trying next instance (increased)
+    "rate_limit_backoff": 15.0,  # Backoff time when rate limited (increased)
+    "max_searches_per_minute": 10  # Maximum searches per minute (reduced)
 }
 
 # Result formatting

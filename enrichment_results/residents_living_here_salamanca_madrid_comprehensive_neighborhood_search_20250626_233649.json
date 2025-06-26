@@ -1,0 +1,56 @@
+{
+  "neighborhood": "residents living here Salamanca,, Madrid",
+  "query": "what do residents think about living here",
+  "priority_category": "public_perception",
+  "all_categories_results": {
+    "public_perception": {
+      "sources": [],
+      "search_term": "residents living here Salamanca,, Madrid residents forum community opinions locals",
+      "search_engine": "duckduckgo",
+      "error": "https://html.duckduckgo.com/html 202 Ratelimit",
+      "response_time": "1.31s",
+      "total_results": 0,
+      "timestamp": "2025-06-26 23:36:46"
+    },
+    "investment_potential": {
+      "sources": [],
+      "search_term": "residents living here Salamanca,, Madrid real estate investment market analysis",
+      "search_engine": "duckduckgo",
+      "error": "https://html.duckduckgo.com/html 202 Ratelimit",
+      "response_time": "1.22s",
+      "total_results": 0,
+      "timestamp": "2025-06-26 23:36:49"
+    },
+    "cleanliness": {
+      "sources": [],
+      "search_term": "residents living here Salamanca,, Madrid street cleaning frequency maintenance services",
+      "search_engine": "duckduckgo",
+      "error": "https://html.duckduckgo.com/html 202 Ratelimit",
+      "response_time": "1.28s",
+      "total_results": 0,
+      "timestamp": "2025-06-26 23:36:49"
+    },
+    "crime_rate": {
+      "sources": [],
+      "search_term": "residents living here Salamanca,, Madrid crime rate safety statistics security",
+      "search_engine": "duckduckgo",
+      "error": "https://lite.duckduckgo.com/lite/ 202 Ratelimit",
+      "response_time": "1.28s",
+      "total_results": 0,
+      "timestamp": "2025-06-26 23:36:49"
+    }
+  },
+  "background_categories": [
+    "crime_rate",
+    "cleanliness",
+    "investment_potential"
+  ],
+  "status": "all_categories_complete",
+  "response_time": "4.29s",
+  "timestamp": "2025-06-26T23:36:49.586497",
+  "total_categories_processed": 4,
+  "categories_with_results": 0,
+  "saved_at": "2025-06-26T23:36:49.586582",
+  "saved_to": "enrichment_results/residents_living_here_salamanca_madrid_comprehensive_neighborhood_search_20250626_233649.json",
+  "search_type": "comprehensive_neighborhood_search"
+}

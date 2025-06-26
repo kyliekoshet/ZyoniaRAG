@@ -1,0 +1,351 @@
+{
+  "neighborhood": "clean Salamanca,, Madrid",
+  "query": "how clean is this area",
+  "priority_category": "cleanliness",
+  "all_categories_results": {
+    "cleanliness": {
+      "sources": [
+        {
+          "title": "Search Result",
+          "url": "No URL",
+          "snippet": "Madrid refuerza su apuesta por la sostenibilidad con nuevas peatonalizaciones. Más espacio para los peatones, menos tráfico rodado y un modelo urbano diseñado para mejorar la calidad del aire y... Wide, clean, tree-lined streets filled with restored classical architecture host some of the world's most prestigious fashion brands, alongside design showrooms, contemporary art galleries, concept stores, independent bookshops, wellness spaces, and Michelin-recognised restaurants. They are located in the Salamanca neighborhood and, after their remodeling, \"an accessible, naturalized and high environmental quality space\" has been achieved, in the words of the consistory. Discover detailed insights on Salamanca Neighborhood Madrid real estate. Our guide covers investment opportunities, quality living, and top real estate agencies to help you secure your perfect home in 2025. Madrid's rental and purchase markets vary dramatically across neighborhoods, with Salamanca commanding the highest prices in the city. For rental properties, Salamanca leads with 1-bedroom apartments ranging from €1,368 to €1,580 monthly, while 3-bedroom units can reach €2,600 to €3,300. La calidad de vida que se respira en Salamanca es difícil de igualar: combina privacidad, accesibilidad y una oferta de servicios cinco estrellas que lo posiciona entre los barrios más deseados de Europa. Ideal para segunda residencia o diversificación patrimonial Salamanca, Madrid Salamanca is known for being a safe and well-maintained area. The streets are generally quieter compared to the more central neighborhoods, which might be appealing for families looking for a peaceful atmosphere. Below, we present some of Madrid's most emblematic areas, including the neighbourhoods of Salamanca, Centro, Retiro, Chamartín, Chamberí, and La Moraleja. Barrio de Salamanca: The golden mile. Barrio de Salamanca is one of Madrid's most iconic symbols of luxury. Its streets are lined with some of the most valuable properties in ... Barrio Salamanca, Madrid, Spain | 3 Bed, 2 Bath Apartment For Sale | €1,980,000 - aProperties presents a charming apartment of 109 sqm according to cadastre,... Salamanca is Madrid's more upscale neighborhood! It is home to the American and Canadian embassies as well as numerous high-end shops. Additionally, a majority of the neighborhood's population come from affluent families. As such, rental rates can be quite steep as compared to other neighborhoods.",
+          "content_enhanced": false,
+          "confidence_score": 52,
+          "confidence_level": "medium",
+          "score_breakdown": {
+            "domain_authority": 15,
+            "content_quality": 24,
+            "technical_quality": 3,
+            "recency_estimate": 10
+          },
+          "quality_metrics": {
+            "neighborhood_specificity": 6,
+            "query_relevance": 10,
+            "content_depth": 6,
+            "data_richness": 2
+          },
+          "rag_weight": 0.52,
+          "structured_data": {
+            "original_snippet": "Madrid refuerza su apuesta por la sostenibilidad con nuevas peatonalizaciones. Más espacio para los peatones, menos tráfico rodado y un modelo urbano diseñado para mejorar la calidad del aire y... Wide, clean, tree-lined streets filled with restored classical architecture host some of the world's most prestigious fashion brands, alongside design showrooms, contemporary art galleries, concept stores, independent bookshops, wellness spaces, and Michelin-recognised restaurants. They are located in the Salamanca neighborhood and, after their remodeling, \"an accessible, naturalized and high environmental quality space\" has been achieved, in the words of the consistory. Discover detailed insights on Salamanca Neighborhood Madrid real estate. Our guide covers investment opportunities, quality living, and top real estate agencies to help you secure your perfect home in 2025. Madrid's rental and purchase markets vary dramatically across neighborhoods, with Salamanca commanding the highest prices in the city. For rental properties, Salamanca leads with 1-bedroom apartments ranging from €1,368 to €1,580 monthly, while 3-bedroom units can reach €2,600 to €3,300. La calidad de vida que se respira en Salamanca es difícil de igualar: combina privacidad, accesibilidad y una oferta de servicios cinco estrellas que lo posiciona entre los barrios más deseados de Europa. Ideal para segunda residencia o diversificación patrimonial Salamanca, Madrid Salamanca is known for being a safe and well-maintained area. The streets are generally quieter compared to the more central neighborhoods, which might be appealing for families looking for a peaceful atmosphere. Below, we present some of Madrid's most emblematic areas, including the neighbourhoods of Salamanca, Centro, Retiro, Chamartín, Chamberí, and La Moraleja. Barrio de Salamanca: The golden mile. Barrio de Salamanca is one of Madrid's most iconic symbols of luxury. Its streets are lined with some of the most valuable properties in ... Barrio Salamanca, Madrid, Spain | 3 Bed, 2 Bath Apartment For Sale | €1,980,000 - aProperties presents a charming apartment of 109 sqm according to cadastre,... Salamanca is Madrid's more upscale neighborhood! It is home to the American and Canadian embassies as well as numerous high-end shops. Additionally, a majority of the neighborhood's population come from affluent families. As such, rental rates can be quite steep as compared to other neighborhoods.",
+            "cleaned_snippet": "Madrid refuerza su apuesta por la sostenibilidad con nuevas peatonalizaciones. Más espacio para los peatones, menos tráfico rodado y un modelo urbano diseñado para mejorar la calidad del aire y. Wide, clean, tree-lined streets filled with restored classical architecture host some of the world's most prestigious fashion brands, alongside design showrooms, contemporary art galleries, concept stores, independent bookshops, wellness spaces, and Michelin-recognised restaurants. They are located in the Salamanca neighborhood and, after their remodeling, \"an accessible, naturalized and high environmental quality space\" has been achieved, in the words of the consistory. Our guide covers investment opportunities, quality living, and top real estate agencies to help you secure your perfect home in 2025. Madrid's rental and purchase markets vary dramatically across neighborhoods, with Salamanca commanding the highest prices in the city. For rental properties, Salamanca leads with 1-bedroom apartments ranging from €1,368 to €1,580 monthly, while 3-bedroom units can reach €2,600 to €3,300. La calidad de vida que se respira en Salamanca es difícil de igualar: combina privacidad, accesibilidad y una oferta de servicios cinco estrellas que lo posiciona entre los barrios más deseados de Europa. Ideal para segunda residencia o diversificación patrimonial Salamanca, Madrid Salamanca is known for being a safe and well-maintained area. The streets are generally quieter compared to the more central neighborhoods, which might be appealing for families looking for a peaceful atmosphere. Below, we present some of Madrid's most emblematic areas, including the neighbourhoods of Salamanca, Centro, Retiro, Chamartín, Chamberí, and La Moraleja. Barrio de Salamanca: The golden mile. Barrio de Salamanca is one of Madrid's most iconic symbols of luxury. Its streets are lined with some of the most valuable properties in. Barrio Salamanca, Madrid, Spain | 3 Bed, 2 Bath Apartment For Sale | €1,980,000 - aProperties presents a charming apartment of 109 sqm according to cadastre,. Salamanca is Madrid's more upscale neighborhood! It is home to the American and Canadian embassies as well as numerous high-end shops. Additionally, a majority of the neighborhood's population come from affluent families. As such, rental rates can be quite steep as compared to other neighborhoods.",
+            "extracted_metrics": {
+              "cleanliness_descriptor": "clean",
+              "cleanliness_score": 7
+            },
+            "key_facts": [
+              "Ideal para segunda residencia o diversificación patrimonial Salamanca, Madrid Salamanca is known for being a safe and well-maintained area.",
+              "They are located in the Salamanca neighborhood and, after their remodeling, \"an accessible, naturalized and high environmental quality space\" has been achieved, in the words of the consistory.",
+              "They are located in the Salamanca neighborhood and, after their remodeling, \"an accessible, naturalized and high environmental quality space\" has been achieved, in the words of the consistory.",
+              "on Salamanca Neighborhood Madrid real estate.",
+              "Madrid's rental and purchase markets vary dramatically across neighborhoods, with Salamanca commanding the highest prices in the city."
+            ],
+            "data_quality": "high",
+            "extraction_timestamp": "2025-06-26T23:35:51.229104"
+          }
+        }
+      ],
+      "search_term": "clean Salamanca,, Madrid clean streets well maintained neighborhood",
+      "search_engine": "duckduckgo",
+      "instance_used": "duckduckgo.com",
+      "response_time": "0.83s",
+      "total_results": 1,
+      "timestamp": "2025-06-26 23:35:51",
+      "content_extraction": {
+        "enhanced_count": 0,
+        "total_sources": 1
+      },
+      "confidence_analysis": {
+        "average_confidence": 52.0,
+        "max_confidence": 52,
+        "high_quality_sources": 0,
+        "total_sources": 1,
+        "confidence_distribution": {
+          "very_high": 0,
+          "high": 0,
+          "medium": 1,
+          "low": 0,
+          "very_low": 0
+        },
+        "overall_reliability": "medium"
+      },
+      "structured_summary": {
+        "combined_metrics": {
+          "cleanliness_descriptor": "clean",
+          "cleanliness_score": 7
+        },
+        "key_facts": [
+          "They are located in the Salamanca neighborhood and, after their remodeling, \"an accessible, naturalized and high environmental quality space\" has been achieved, in the words of the consistory.",
+          "Madrid's rental and purchase markets vary dramatically across neighborhoods, with Salamanca commanding the highest prices in the city.",
+          "Ideal para segunda residencia o diversificación patrimonial Salamanca, Madrid Salamanca is known for being a safe and well-maintained area.",
+          "on Salamanca Neighborhood Madrid real estate."
+        ],
+        "data_quality": "high",
+        "extraction_success": 1
+      }
+    },
+    "crime_rate": {
+      "sources": [
+        {
+          "title": "Search Result",
+          "url": "No URL",
+          "snippet": "Salamanca is overall safe to travel to, with somewhat low crime rates where pickpockets are the biggest issue. However, it is advised that you remain vigilant at all times, especially when crossing the streets. Salamanca: Known for its upscale atmosphere, Salamanca is one of the most affluent areas in Madrid and has a low crime rate. The local police have reported only 12 incidents per 1,000 residents in the first half of 2023, making it one of the safest places in Madrid. Petty Crime: The most common crime reported in Salamanca is petty theft, particularly in crowded places such as markets or during festivals. Keep your belongings secure and be mindful of pickpockets. Violent Crime: Violent crime rates in Salamanca are notably low The safest areas to stay in Madrid for tourists are Malasaña, Centro, Gran Vía, Huertas, Lavapiés, La Latina, Salamanca, Chueca, Retiro, Chamberí, and Chamartín. While these neighborhoods are generally safe, it's important to stay vigilant and take common-sense precautions no matter where you stay. Madrid Crime Rate The U.S. Department of State Travel Advisory at the date of this report's publication assesses Spain at Level 2, increased caution due to terrorism. Criminals tend to target elderly people and women, according to El Periodico, and steal jewelry, mobile phones, and wallets. According to Numbeo, the city has a safety index of 72.8 and a crime index of 27.2, making it safer than many major cities worldwide. Local authorities have strengthened security in busy tourist areas by increasing police presence and introducing public safety measures. Safety Tips for Modern Madrid. Stay alert in crowded tourist areas, particularly around Sol; Keep your belongings secure and be wary of clipboard-wielding surveyors; Exercise extra caution in and around Lavapiés, especially at night; Avoid excessive drinking, as it can make you a target Salamanca is a relatively safe city for tourists, with a low level of crime. In fact, its crime rate is lower compared to other Spanish cities of similar size such as Marbella ou Malaga. Tourists can therefore feel safe when visiting or staying in Salamanca. How Safe Is Madrid Really? Madrid is a safe city to visit, but it is recommended that you take some basic precautions measures since it is known to be crawling with pickpockets, especially around popular tourist landmarks and larger cities. Naturally, Madrid and Barcelona are where usually more crimes are reported (Madrid: 178,131; Barcelona: 133,885). However, 2024 saw decreases in both their crime rates, with Madrid's rate dropping by 2.2 per cent and Barcelona's by 3.5 per cent compared with the previous year. Both Sevilla and Valencia saw slight drops too.",
+          "content_enhanced": false,
+          "confidence_score": 53,
+          "confidence_level": "medium",
+          "score_breakdown": {
+            "domain_authority": 15,
+            "content_quality": 27,
+            "technical_quality": 3,
+            "recency_estimate": 8
+          },
+          "quality_metrics": {
+            "neighborhood_specificity": 4,
+            "query_relevance": 7,
+            "content_depth": 10,
+            "data_richness": 6
+          },
+          "rag_weight": 0.53,
+          "structured_data": {
+            "original_snippet": "Salamanca is overall safe to travel to, with somewhat low crime rates where pickpockets are the biggest issue. However, it is advised that you remain vigilant at all times, especially when crossing the streets. Salamanca: Known for its upscale atmosphere, Salamanca is one of the most affluent areas in Madrid and has a low crime rate. The local police have reported only 12 incidents per 1,000 residents in the first half of 2023, making it one of the safest places in Madrid. Petty Crime: The most common crime reported in Salamanca is petty theft, particularly in crowded places such as markets or during festivals. Keep your belongings secure and be mindful of pickpockets. Violent Crime: Violent crime rates in Salamanca are notably low The safest areas to stay in Madrid for tourists are Malasaña, Centro, Gran Vía, Huertas, Lavapiés, La Latina, Salamanca, Chueca, Retiro, Chamberí, and Chamartín. While these neighborhoods are generally safe, it's important to stay vigilant and take common-sense precautions no matter where you stay. Madrid Crime Rate The U.S. Department of State Travel Advisory at the date of this report's publication assesses Spain at Level 2, increased caution due to terrorism. Criminals tend to target elderly people and women, according to El Periodico, and steal jewelry, mobile phones, and wallets. According to Numbeo, the city has a safety index of 72.8 and a crime index of 27.2, making it safer than many major cities worldwide. Local authorities have strengthened security in busy tourist areas by increasing police presence and introducing public safety measures. Safety Tips for Modern Madrid. Stay alert in crowded tourist areas, particularly around Sol; Keep your belongings secure and be wary of clipboard-wielding surveyors; Exercise extra caution in and around Lavapiés, especially at night; Avoid excessive drinking, as it can make you a target Salamanca is a relatively safe city for tourists, with a low level of crime. In fact, its crime rate is lower compared to other Spanish cities of similar size such as Marbella ou Malaga. Tourists can therefore feel safe when visiting or staying in Salamanca. How Safe Is Madrid Really? Madrid is a safe city to visit, but it is recommended that you take some basic precautions measures since it is known to be crawling with pickpockets, especially around popular tourist landmarks and larger cities. Naturally, Madrid and Barcelona are where usually more crimes are reported (Madrid: 178,131; Barcelona: 133,885). However, 2024 saw decreases in both their crime rates, with Madrid's rate dropping by 2.2 per cent and Barcelona's by 3.5 per cent compared with the previous year. Both Sevilla and Valencia saw slight drops too.",
+            "cleaned_snippet": "Salamanca is overall safe to travel to, with somewhat low crime rates where pickpockets are the biggest issue. However, it is advised that you remain vigilant at all times, especially when crossing the streets. Salamanca: Known for its upscale atmosphere, Salamanca is one of the most affluent areas in Madrid and has a low crime rate. The local police have reported only 12 incidents per 1,000 residents in the first half of 2023, making it one of the safest places in Madrid. Petty Crime: The most common crime reported in Salamanca is petty theft, particularly in crowded places such as markets or during festivals. Keep your belongings secure and be mindful of pickpockets. Violent Crime: Violent crime rates in Salamanca are notably low The safest areas to stay in Madrid for tourists are Malasaña, Centro, Gran Vía, Huertas, Lavapiés, La Latina, Salamanca, Chueca, Retiro, Chamberí, and Chamartín. While these neighborhoods are generally safe, it's important to stay vigilant and take common-sense precautions no matter where you stay. Madrid Crime Rate The U. Department of State Travel Advisory at the date of this report's publication assesses Spain at Level 2, increased caution due to terrorism. Criminals tend to target elderly people and women, according to El Periodico, and steal jewelry, mobile phones, and wallets. According to Numbeo, the city has a safety index of 72. Local authorities have strengthened security in busy tourist areas by increasing police presence and introducing public safety measures. Safety Tips for Modern Madrid. Stay alert in crowded tourist areas, particularly around Sol; Keep your belongings secure and be wary of clipboard-wielding surveyors; Exercise extra caution in and around Lavapiés, especially at night; Avoid excessive drinking, as it can make you a target Salamanca is a relatively safe city for tourists, with a low level of crime. In fact, its crime rate is lower compared to other Spanish cities of similar size such as Marbella ou Malaga. Tourists can therefore feel safe when visiting or staying in Salamanca. How Safe Is Madrid Really? Madrid is a safe city to visit, but it is recommended that you take some basic precautions measures since it is known to be crawling with pickpockets, especially around popular tourist landmarks and larger cities. Naturally, Madrid and Barcelona are where usually more crimes are reported (Madrid: 178,131; Barcelona: 133,885). However, 2024 saw decreases in both their crime rates, with Madrid's rate dropping by 2. Both Sevilla and Valencia saw slight drops too.",
+            "extracted_metrics": {
+              "total_incidents": 12.0,
+              "safety_descriptor": "safest",
+              "safety_score": 9
+            },
+            "key_facts": [
+              "Salamanca is overall safe to travel to, with somewhat low crime rates where pickpockets are the biggest issue.",
+              "Salamanca: Known for its upscale atmosphere, Salamanca is one of the most affluent areas in Madrid and has a low crime rate.",
+              "The local police have reported only 12 incidents per 1,000 residents in the first half of 2023, making it one of the safest places in Madrid.",
+              "Petty Crime: The most common crime reported in Salamanca is petty theft, particularly in crowded places such as markets or during festivals.",
+              "While these neighborhoods are generally safe, it's important to stay vigilant and take common-sense precautions no matter where you stay."
+            ],
+            "data_quality": "high",
+            "extraction_timestamp": "2025-06-26T23:35:54.240200"
+          }
+        }
+      ],
+      "search_term": "clean Salamanca,, Madrid crime rate safety statistics security",
+      "search_engine": "duckduckgo",
+      "instance_used": "duckduckgo.com",
+      "response_time": "0.83s",
+      "total_results": 1,
+      "timestamp": "2025-06-26 23:35:54",
+      "content_extraction": {
+        "enhanced_count": 0,
+        "total_sources": 1
+      },
+      "confidence_analysis": {
+        "average_confidence": 53.0,
+        "max_confidence": 53,
+        "high_quality_sources": 0,
+        "total_sources": 1,
+        "confidence_distribution": {
+          "very_high": 0,
+          "high": 0,
+          "medium": 1,
+          "low": 0,
+          "very_low": 0
+        },
+        "overall_reliability": "medium"
+      },
+      "structured_summary": {
+        "combined_metrics": {
+          "total_incidents": 12.0,
+          "safety_descriptor": "safest",
+          "safety_score": 9
+        },
+        "key_facts": [
+          "Petty Crime: The most common crime reported in Salamanca is petty theft, particularly in crowded places such as markets or during festivals.",
+          "While these neighborhoods are generally safe, it's important to stay vigilant and take common-sense precautions no matter where you stay.",
+          "Salamanca: Known for its upscale atmosphere, Salamanca is one of the most affluent areas in Madrid and has a low crime rate.",
+          "Salamanca is overall safe to travel to, with somewhat low crime rates where pickpockets are the biggest issue.",
+          "The local police have reported only 12 incidents per 1,000 residents in the first half of 2023, making it one of the safest places in Madrid."
+        ],
+        "data_quality": "high",
+        "extraction_success": 1
+      }
+    },
+    "investment_potential": {
+      "sources": [
+        {
+          "title": "Search Result",
+          "url": "No URL",
+          "snippet": "Explore Madrid's Salamanca district in 2025 from premium areas like Recoletos to emerging zones such as Fuente-del-Berro. Discover real estate trends, high yields and quality living. The real estate market in the Barrio de Salamanca, one of Madrid's most emblematic and exclusive areas, continues to attract the interest of both investors and families looking for a quality home. This extensive article offers a detailed perspective enriched by quantitative and qualitative analysis, designed for those seeking ... This neighbourhood exudes a cosmopolitan, elegant, and tranquil lifestyle, ideal both for living and for investing. Known as Madrid's \"Golden Mile\", this area has become one of the most attractive locations for those seeking a solid, exclusive real estate asset with a strong legacy component. A Refined, Elegant and Cosmopolitan ... A diferencia de otras zonas emergentes, Salamanca cuenta con una demanda muy superior a la oferta disponible. Las propiedades, muchas de ellas en edificios históricos restaurados, tienen un carácter único y una revalorización constante, lo que convierte a este barrio en una de las inversiones inmobiliarias más estables de Europa. Real Estate Agent . Anna Siudzińska is a skilled business strategist and experienced manager, specializing in sales, marketing, and corporate growth. With a wealth of experience in international markets, she possesses in-depth knowledge of Madrid's real estate sector, guiding clients toward profitable investments and market advantages. El Barrio de Salamanca en Madrid mantiene su atractivo para los inversores de lujo en Madrid. La firma de inversión Bet Capital ha aprovechado esta dinámica cerrando varias operaciones en la zona. La compañía utiliza un sistema de opciones de compra con el que ha logrado asegurar activos estratégicos de manera ágil y eficiente. Madrid's real estate market has experienced remarkable growth in recent years, especially in districts such as Salamanca, Chamberí, and Retiro. According to a report by Evernest , the average price per square meter in Salamanca has increased by 113% over the past decade, reaching €6,769/m² , while in Chamberí, the increase was ... This article presents a thorough analysis of the best areas within the neighborhood for real estate investment in Barrio de Salamanca, Madrid. We'll explore key sub-neighborhoods, examining factors like availability of barrio de salamanca apartments for sale in 2024, median purchase and rental prices, and potential investment profits ... Salamanca, considered the most exclusive district in the capital, is more than simply a typical area; it is a steady stream of income for investors. Its streets are full of prestige, and its price per square meter, which exceeds 6,000 euros, is justified by its incredible annual growth rate of 12% Barcelona sees a 20% increase in leasing activity compared to 2023, while Madrid records its best office rental market performance since the pandemic. Limited supply in prime areas drives demand toward decentralized markets. In 2024, office investment grew by 33.4%, reaching €1.6 billion.",
+          "content_enhanced": false,
+          "confidence_score": 61,
+          "confidence_level": "medium",
+          "score_breakdown": {
+            "domain_authority": 15,
+            "content_quality": 35,
+            "technical_quality": 3,
+            "recency_estimate": 8
+          },
+          "quality_metrics": {
+            "neighborhood_specificity": 10,
+            "query_relevance": 9,
+            "content_depth": 10,
+            "data_richness": 6
+          },
+          "rag_weight": 0.61,
+          "structured_data": {
+            "original_snippet": "Explore Madrid's Salamanca district in 2025 from premium areas like Recoletos to emerging zones such as Fuente-del-Berro. Discover real estate trends, high yields and quality living. The real estate market in the Barrio de Salamanca, one of Madrid's most emblematic and exclusive areas, continues to attract the interest of both investors and families looking for a quality home. This extensive article offers a detailed perspective enriched by quantitative and qualitative analysis, designed for those seeking ... This neighbourhood exudes a cosmopolitan, elegant, and tranquil lifestyle, ideal both for living and for investing. Known as Madrid's \"Golden Mile\", this area has become one of the most attractive locations for those seeking a solid, exclusive real estate asset with a strong legacy component. A Refined, Elegant and Cosmopolitan ... A diferencia de otras zonas emergentes, Salamanca cuenta con una demanda muy superior a la oferta disponible. Las propiedades, muchas de ellas en edificios históricos restaurados, tienen un carácter único y una revalorización constante, lo que convierte a este barrio en una de las inversiones inmobiliarias más estables de Europa. Real Estate Agent . Anna Siudzińska is a skilled business strategist and experienced manager, specializing in sales, marketing, and corporate growth. With a wealth of experience in international markets, she possesses in-depth knowledge of Madrid's real estate sector, guiding clients toward profitable investments and market advantages. El Barrio de Salamanca en Madrid mantiene su atractivo para los inversores de lujo en Madrid. La firma de inversión Bet Capital ha aprovechado esta dinámica cerrando varias operaciones en la zona. La compañía utiliza un sistema de opciones de compra con el que ha logrado asegurar activos estratégicos de manera ágil y eficiente. Madrid's real estate market has experienced remarkable growth in recent years, especially in districts such as Salamanca, Chamberí, and Retiro. According to a report by Evernest , the average price per square meter in Salamanca has increased by 113% over the past decade, reaching €6,769/m² , while in Chamberí, the increase was ... This article presents a thorough analysis of the best areas within the neighborhood for real estate investment in Barrio de Salamanca, Madrid. We'll explore key sub-neighborhoods, examining factors like availability of barrio de salamanca apartments for sale in 2024, median purchase and rental prices, and potential investment profits ... Salamanca, considered the most exclusive district in the capital, is more than simply a typical area; it is a steady stream of income for investors. Its streets are full of prestige, and its price per square meter, which exceeds 6,000 euros, is justified by its incredible annual growth rate of 12% Barcelona sees a 20% increase in leasing activity compared to 2023, while Madrid records its best office rental market performance since the pandemic. Limited supply in prime areas drives demand toward decentralized markets. In 2024, office investment grew by 33.4%, reaching €1.6 billion.",
+            "cleaned_snippet": "Explore Madrid's Salamanca district in 2025 from premium areas like Recoletos to emerging zones such as Fuente-del-Berro. Discover real estate trends, high yields and quality living. The real estate market in the Barrio de Salamanca, one of Madrid's most emblematic and exclusive areas, continues to attract the interest of both investors and families looking for a quality home. This extensive article offers a detailed perspective enriched by quantitative and qualitative analysis, designed for those seeking. This neighbourhood exudes a cosmopolitan, elegant, and tranquil lifestyle, ideal both for living and for investing. Known as Madrid's \"Golden Mile\", this area has become one of the most attractive locations for those seeking a solid, exclusive real estate asset with a strong legacy component. A Refined, Elegant and Cosmopolitan. A diferencia de otras zonas emergentes, Salamanca cuenta con una demanda muy superior a la oferta disponible. Las propiedades, muchas de ellas en edificios históricos restaurados, tienen un carácter único y una revalorización constante, lo que convierte a este barrio en una de las inversiones inmobiliarias más estables de Europa. Real Estate Agent. Anna Siudzińska is a skilled business strategist and experienced manager, specializing in sales, marketing, and corporate growth. With a wealth of experience in international markets, she possesses in-depth knowledge of Madrid's real estate sector, guiding clients toward profitable investments and market advantages. El Barrio de Salamanca en Madrid mantiene su atractivo para los inversores de lujo en Madrid. La firma de inversión Bet Capital ha aprovechado esta dinámica cerrando varias operaciones en la zona. La compañía utiliza un sistema de opciones de compra con el que ha logrado asegurar activos estratégicos de manera ágil y eficiente. Madrid's real estate market has experienced remarkable growth in recent years, especially in districts such as Salamanca, Chamberí, and Retiro. According to a report by Evernest , the average price per square meter in Salamanca has increased by 113% over the past decade, reaching €6,769/m² , while in Chamberí, the increase was. This article presents a thorough analysis of the best areas within the neighborhood for real estate investment in Barrio de Salamanca, Madrid. We'll explore key sub-neighborhoods, examining factors like availability of barrio de salamanca apartments for sale in 2024, median purchase and rental prices, and potential investment profits. Salamanca, considered the most exclusive district in the capital, is more than simply a typical area; it is a steady stream of income for investors. Its streets are full of prestige, and its price per square meter, which exceeds 6,000 euros, is justified by its incredible annual growth rate of 12% Barcelona sees a 20% increase in leasing activity compared to 2023, while Madrid records its best office rental market performance since the pandemic. Limited supply in prime areas drives demand toward decentralized markets. In 2024, office investment grew by 33.",
+            "extracted_metrics": {
+              "price_per_sqm": 6769.0,
+              "currency": "EUR",
+              "growth_rate": 13.0
+            },
+            "key_facts": [
+              "The real estate market in the Barrio de Salamanca, one of Madrid's most emblematic and exclusive areas, continues to attract the interest of both investors and families looking for a quality home.",
+              "Anna Siudzińska is a skilled business strategist and experienced manager, specializing in sales, marketing, and corporate growth.",
+              "With a wealth of experience in international markets, she possesses in-depth knowledge of Madrid's real estate sector, guiding clients toward profitable investments and market advantages.",
+              "Madrid's real estate market has experienced remarkable growth in recent years, especially in districts such as Salamanca, Chamberí, and Retiro.",
+              "According to a report by Evernest , the average price per square meter in Salamanca has increased by 113% over the past decade, reaching €6,769/m² , while in Chamberí, the increase was."
+            ],
+            "data_quality": "high",
+            "extraction_timestamp": "2025-06-26T23:35:54.268032"
+          }
+        }
+      ],
+      "search_term": "clean Salamanca,, Madrid real estate investment market analysis",
+      "search_engine": "duckduckgo",
+      "instance_used": "duckduckgo.com",
+      "response_time": "0.86s",
+      "total_results": 1,
+      "timestamp": "2025-06-26 23:35:54",
+      "content_extraction": {
+        "enhanced_count": 0,
+        "total_sources": 1
+      },
+      "confidence_analysis": {
+        "average_confidence": 61.0,
+        "max_confidence": 61,
+        "high_quality_sources": 0,
+        "total_sources": 1,
+        "confidence_distribution": {
+          "very_high": 0,
+          "high": 0,
+          "medium": 1,
+          "low": 0,
+          "very_low": 0
+        },
+        "overall_reliability": "medium"
+      },
+      "structured_summary": {
+        "combined_metrics": {
+          "price_per_sqm": 6769.0,
+          "currency": "EUR",
+          "growth_rate": 13.0
+        },
+        "key_facts": [
+          "Anna Siudzińska is a skilled business strategist and experienced manager, specializing in sales, marketing, and corporate growth.",
+          "Madrid's real estate market has experienced remarkable growth in recent years, especially in districts such as Salamanca, Chamberí, and Retiro.",
+          "According to a report by Evernest , the average price per square meter in Salamanca has increased by 113% over the past decade, reaching €6,769/m² , while in Chamberí, the increase was.",
+          "The real estate market in the Barrio de Salamanca, one of Madrid's most emblematic and exclusive areas, continues to attract the interest of both investors and families looking for a quality home.",
+          "With a wealth of experience in international markets, she possesses in-depth knowledge of Madrid's real estate sector, guiding clients toward profitable investments and market advantages."
+        ],
+        "data_quality": "high",
+        "extraction_success": 1
+      }
+    },
+    "public_perception": {
+      "sources": [
+        {
+          "title": "Search Result",
+          "url": "No URL",
+          "snippet": "The best neighborhoods in Madrid for families are Retiro, Chamberí, and Salamanca. The best neighborhoods for students or young professionals are Sol, Malasaña, Chueca, Lavapiés, and La Latina. The relatively cheaper neighborhoods in Madrid are Malasaña and Lavapiés. Its proximity to El Retiro Park, secure and refined environment, excellent access to Barajas Airport, and a wide array of international schools, private clinics, and luxury services make it the perfect location for a second home in Europe or to establish a part-time residence in Madrid. Get ready to immerse yourself in Madrid life, with its historic streets, world-renowned art and unrivalled leisure and entertainment options. Is it expensive to live in Madrid? What are the best neighbourhoods to live in Madrid? Madrid or Barcelona? Madrid or Valencia? Salamanca, with its beautiful 19th-century architecture and tree-lined streets, is the epitome of luxury in Madrid. Known as the Golden Mile, this posh neighborhood boasts: Grand boulevards that offer a pedestrian-friendly environment filled with fine dining and boutique shopping experiences. Descubre cómo es vivir en el Barrio de Salamanca en Madrid: lujo, historia, tiendas exclusivas y calidad de vida en uno de los barrios más prestigiosos de España. Discover detailed insights on Salamanca Neighborhood Madrid real estate. Our guide covers investment opportunities, quality living, and top real estate agencies to help you secure your perfect home in 2025. Madrid has a high cost of living, especially in certain upscale neighborhoods. Neighborhoods like Salamanca and Chamberí are particularly popular among expats but come with a premium price tag. In Salamanca, you'll find a one-bedroom flat for €1,800 monthly. Living Ardemens redefines apartment living in Madrid. The building boasts a work lounge, movie theater, sauna, and gym, offering its residents a unique experience in Spain's capital. Situated in the local favorite, Salamanca, Ardemens is ideal for beginning the next chapter of your life in Madrid. Salamanca is a district that houses various neighborhoods, from the most residential to the most commercial. As you walk through its streets, you can appreciate the true spirit of Madrid and feel the pulse of the city. Best Home Cleaning in Salamanca, Madrid, Spain - Ideal Servicios, Clockmatic",
+          "content_enhanced": false,
+          "confidence_score": 51,
+          "confidence_level": "medium",
+          "score_breakdown": {
+            "domain_authority": 15,
+            "content_quality": 23,
+            "technical_quality": 3,
+            "recency_estimate": 10
+          },
+          "quality_metrics": {
+            "neighborhood_specificity": 6,
+            "query_relevance": 7,
+            "content_depth": 10,
+            "data_richness": 0
+          },
+          "rag_weight": 0.51,
+          "structured_data": {
+            "original_snippet": "The best neighborhoods in Madrid for families are Retiro, Chamberí, and Salamanca. The best neighborhoods for students or young professionals are Sol, Malasaña, Chueca, Lavapiés, and La Latina. The relatively cheaper neighborhoods in Madrid are Malasaña and Lavapiés. Its proximity to El Retiro Park, secure and refined environment, excellent access to Barajas Airport, and a wide array of international schools, private clinics, and luxury services make it the perfect location for a second home in Europe or to establish a part-time residence in Madrid. Get ready to immerse yourself in Madrid life, with its historic streets, world-renowned art and unrivalled leisure and entertainment options. Is it expensive to live in Madrid? What are the best neighbourhoods to live in Madrid? Madrid or Barcelona? Madrid or Valencia? Salamanca, with its beautiful 19th-century architecture and tree-lined streets, is the epitome of luxury in Madrid. Known as the Golden Mile, this posh neighborhood boasts: Grand boulevards that offer a pedestrian-friendly environment filled with fine dining and boutique shopping experiences. Descubre cómo es vivir en el Barrio de Salamanca en Madrid: lujo, historia, tiendas exclusivas y calidad de vida en uno de los barrios más prestigiosos de España. Discover detailed insights on Salamanca Neighborhood Madrid real estate. Our guide covers investment opportunities, quality living, and top real estate agencies to help you secure your perfect home in 2025. Madrid has a high cost of living, especially in certain upscale neighborhoods. Neighborhoods like Salamanca and Chamberí are particularly popular among expats but come with a premium price tag. In Salamanca, you'll find a one-bedroom flat for €1,800 monthly. Living Ardemens redefines apartment living in Madrid. The building boasts a work lounge, movie theater, sauna, and gym, offering its residents a unique experience in Spain's capital. Situated in the local favorite, Salamanca, Ardemens is ideal for beginning the next chapter of your life in Madrid. Salamanca is a district that houses various neighborhoods, from the most residential to the most commercial. As you walk through its streets, you can appreciate the true spirit of Madrid and feel the pulse of the city. Best Home Cleaning in Salamanca, Madrid, Spain - Ideal Servicios, Clockmatic",
+            "cleaned_snippet": "The best neighborhoods in Madrid for families are Retiro, Chamberí, and Salamanca. The best neighborhoods for students or young professionals are Sol, Malasaña, Chueca, Lavapiés, and La Latina. The relatively cheaper neighborhoods in Madrid are Malasaña and Lavapiés. Its proximity to El Retiro Park, secure and refined environment, excellent access to Barajas Airport, and a wide array of international schools, private clinics, and luxury services make it the perfect location for a second home in Europe or to establish a part-time residence in Madrid. Get ready to immerse yourself in Madrid life, with its historic streets, world-renowned art and unrivalled leisure and entertainment options. Is it expensive to live in Madrid? What are the best neighbourhoods to live in Madrid? Madrid or Barcelona? Madrid or Valencia? Salamanca, with its beautiful 19th-century architecture and tree-lined streets, is the epitome of luxury in Madrid. Known as the Golden Mile, this posh neighborhood boasts: Grand boulevards that offer a pedestrian-friendly environment filled with fine dining and boutique shopping experiences. Descubre cómo es vivir en el Barrio de Salamanca en Madrid: lujo, historia, tiendas exclusivas y calidad de vida en uno de los barrios más prestigiosos de España. Our guide covers investment opportunities, quality living, and top real estate agencies to help you secure your perfect home in 2025. Madrid has a high cost of living, especially in certain upscale neighborhoods. Neighborhoods like Salamanca and Chamberí are particularly popular among expats but come with a premium price tag. In Salamanca, you'll find a one-bedroom flat for €1,800 monthly. Living Ardemens redefines apartment living in Madrid. The building boasts a work lounge, movie theater, sauna, and gym, offering its residents a unique experience in Spain's capital. Situated in the local favorite, Salamanca, Ardemens is ideal for beginning the next chapter of your life in Madrid. Salamanca is a district that houses various neighborhoods, from the most residential to the most commercial. As you walk through its streets, you can appreciate the true spirit of Madrid and feel the pulse of the city. Best Home Cleaning in Salamanca, Madrid, Spain - Ideal Servicios, Clockmatic.",
+            "extracted_metrics": {},
+            "key_facts": [
+              "The building boasts a work lounge, movie theater, sauna, and gym, offering its residents a unique experience in Spain's capital.",
+              "Situated in the local favorite, Salamanca, Ardemens is ideal for beginning the next chapter of your life in Madrid.",
+              "Salamanca is a district that houses various neighborhoods, from the most residential to the most commercial.",
+              "Get ready to immerse yourself in Madrid life, with its historic streets, world-renowned art and unrivalled leisure and entertainment options.",
+              "Known as the Golden Mile, this posh neighborhood boasts: Grand boulevards that offer a pedestrian-friendly environment filled with fine dining and boutique shopping experiences."
+            ],
+            "data_quality": "low",
+            "extraction_timestamp": "2025-06-26T23:35:54.293390"
+          }
+        }
+      ],
+      "search_term": "clean Salamanca,, Madrid resident reviews living experience",
+      "search_engine": "duckduckgo",
+      "instance_used": "duckduckgo.com",
+      "response_time": "0.88s",
+      "total_results": 1,
+      "timestamp": "2025-06-26 23:35:54",
+      "content_extraction": {
+        "enhanced_count": 0,
+        "total_sources": 1
+      },
+      "confidence_analysis": {
+        "average_confidence": 51.0,
+        "max_confidence": 51,
+        "high_quality_sources": 0,
+        "total_sources": 1,
+        "confidence_distribution": {
+          "very_high": 0,
+          "high": 0,
+          "medium": 1,
+          "low": 0,
+          "very_low": 0
+        },
+        "overall_reliability": "medium"
+      },
+      "structured_summary": {
+        "combined_metrics": {},
+        "key_facts": [
+          "Known as the Golden Mile, this posh neighborhood boasts: Grand boulevards that offer a pedestrian-friendly environment filled with fine dining and boutique shopping experiences.",
+          "Salamanca is a district that houses various neighborhoods, from the most residential to the most commercial.",
+          "The building boasts a work lounge, movie theater, sauna, and gym, offering its residents a unique experience in Spain's capital.",
+          "Situated in the local favorite, Salamanca, Ardemens is ideal for beginning the next chapter of your life in Madrid.",
+          "Get ready to immerse yourself in Madrid life, with its historic streets, world-renowned art and unrivalled leisure and entertainment options."
+        ],
+        "data_quality": "low",
+        "extraction_success": 1
+      }
+    },
+    "general_info": {
+      "sources": [],
+      "search_term": "clean Salamanca,, Madrid neighborhood guide amenities lifestyle",
+      "search_engine": "duckduckgo",
+      "error": "https://lite.duckduckgo.com/lite/ 202 Ratelimit",
+      "response_time": "1.23s",
+      "total_results": 0,
+      "timestamp": "2025-06-26 23:35:57"
+    }
+  },
+  "background_categories": [
+    "crime_rate",
+    "public_perception",
+    "investment_potential",
+    "general_info"
+  ],
+  "status": "all_categories_complete",
+  "response_time": "7.24s",
+  "timestamp": "2025-06-26T23:35:57.641053",
+  "total_categories_processed": 5,
+  "categories_with_results": 4,
+  "saved_at": "2025-06-26T23:35:57.641245",
+  "saved_to": "enrichment_results/clean_salamanca_madrid_comprehensive_neighborhood_search_20250626_233557.json",
+  "search_type": "comprehensive_neighborhood_search"
+}

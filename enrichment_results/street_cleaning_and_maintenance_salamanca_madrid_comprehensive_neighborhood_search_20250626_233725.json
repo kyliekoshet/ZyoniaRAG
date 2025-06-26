@@ -1,0 +1,66 @@
+{
+  "neighborhood": "street cleaning and maintenance Salamanca,, Madrid",
+  "query": "how is the street cleaning and maintenance",
+  "priority_category": "cleanliness",
+  "all_categories_results": {
+    "cleanliness": {
+      "sources": [],
+      "search_term": "street cleaning and maintenance Salamanca,, Madrid street cleaning frequency maintenance services",
+      "search_engine": "duckduckgo",
+      "error": "https://lite.duckduckgo.com/lite/ 202 Ratelimit",
+      "response_time": "1.18s",
+      "total_results": 0,
+      "timestamp": "2025-06-26 23:37:19"
+    },
+    "crime_rate": {
+      "sources": [],
+      "search_term": "street cleaning and maintenance Salamanca,, Madrid crime rate safety statistics security",
+      "search_engine": "duckduckgo",
+      "error": "https://lite.duckduckgo.com/lite/ 202 Ratelimit",
+      "response_time": "1.21s",
+      "total_results": 0,
+      "timestamp": "2025-06-26 23:37:22"
+    },
+    "public_perception": {
+      "sources": [],
+      "search_term": "street cleaning and maintenance Salamanca,, Madrid residents forum community opinions locals",
+      "search_engine": "duckduckgo",
+      "error": "https://lite.duckduckgo.com/lite/ 202 Ratelimit",
+      "response_time": "1.22s",
+      "total_results": 0,
+      "timestamp": "2025-06-26 23:37:22"
+    },
+    "investment_potential": {
+      "sources": [],
+      "search_term": "street cleaning and maintenance Salamanca,, Madrid real estate investment market analysis",
+      "search_engine": "duckduckgo",
+      "error": "https://html.duckduckgo.com/html 202 Ratelimit",
+      "response_time": "1.21s",
+      "total_results": 0,
+      "timestamp": "2025-06-26 23:37:25"
+    },
+    "general_info": {
+      "sources": [],
+      "search_term": "street cleaning and maintenance Salamanca,, Madrid neighborhood guide amenities lifestyle",
+      "search_engine": "duckduckgo",
+      "error": "https://html.duckduckgo.com/html 202 Ratelimit",
+      "response_time": "1.25s",
+      "total_results": 0,
+      "timestamp": "2025-06-26 23:37:25"
+    }
+  },
+  "background_categories": [
+    "crime_rate",
+    "public_perception",
+    "investment_potential",
+    "general_info"
+  ],
+  "status": "all_categories_complete",
+  "response_time": "7.26s",
+  "timestamp": "2025-06-26T23:37:25.808107",
+  "total_categories_processed": 5,
+  "categories_with_results": 0,
+  "saved_at": "2025-06-26T23:37:25.808211",
+  "saved_to": "enrichment_results/street_cleaning_and_maintenance_salamanca_madrid_comprehensive_neighborhood_search_20250626_233725.json",
+  "search_type": "comprehensive_neighborhood_search"
+}
