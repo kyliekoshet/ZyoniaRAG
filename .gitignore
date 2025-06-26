@@ -12,4 +12,4 @@ venv/
 demo_chroma_db/
 
 # OS-specific
-.DS_Store
+.DS_Storeenrichment_results/
