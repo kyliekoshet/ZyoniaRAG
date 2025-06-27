@@ -1,0 +1,126 @@
+{
+  "neighborhood": "Usera, Madrid",
+  "query": "Is it good for investment?",
+  "priority_category": "investment_potential",
+  "fast_mode": true,
+  "instant_results": {
+    "investment_potential": {
+      "sources": [
+        {
+          "title": "4 new homes and developments for sale in Usera, Madrid ...",
+          "url": "https://www.idealista.com/en/venta-obranueva/madrid/usera/",
+          "snippet": "4 new homes and developments for sale in Usera, Madrid, Spain. Buy · Rent; New ... Investment opportunities · Rentalia, holiday rentals · Price reports ...",
+          "engine": "google",
+          "score": 0.5,
+          "relevance_score": 12,
+          "structured_data": {
+            "original_snippet": "4 new homes and developments for sale in Usera, Madrid, Spain. Buy · Rent; New ... Investment opportunities · Rentalia, holiday rentals · Price reports ...",
+            "cleaned_snippet": "Buy · Rent; New. Investment opportunities · Rentalia, holiday rentals · Price reports.",
+            "extracted_metrics": {},
+            "key_facts": [
+              "Investment opportunities · Rentalia, holiday rentals · Price reports.",
+              "Investment opportunities · Rentalia, holiday rentals · Price reports.",
+              "4 new homes and developments for sale in Usera, Madrid, Spain."
+            ],
+            "data_quality": "low",
+            "extraction_timestamp": "2025-06-27T09:55:58.440187"
+          }
+        },
+        {
+          "title": "Property for sale in Usera, Madrid, Spain: houses and flats",
+          "url": "https://www.idealista.com/en/venta-viviendas/madrid/usera/",
+          "snippet": "354 houses and flats for sale in Madrid - Usera, Spain, from 65400 euros. Property in Madrid - Usera for sale direct from owners and real estate agents.",
+          "engine": "google",
+          "score": 0.3333333333333333,
+          "relevance_score": 12,
+          "structured_data": {
+            "original_snippet": "354 houses and flats for sale in Madrid - Usera, Spain, from 65400 euros. Property in Madrid - Usera for sale direct from owners and real estate agents.",
+            "cleaned_snippet": "Property in Madrid - Usera for sale direct from owners and real estate agents.",
+            "extracted_metrics": {},
+            "key_facts": [],
+            "data_quality": "low",
+            "extraction_timestamp": "2025-06-27T09:55:58.445782"
+          }
+        },
+        {
+          "title": "Madrid's best areas to invest: guide for investors",
+          "url": "https://blog.dflatmadrid.com/en/areas-to-invest-in-madrid/",
+          "snippet": "Nov 3, 2024 — Madrid's areas have great potential for investment. 1 ... Usera to exclusive Salamanca, each area offers its own particular opportunities.",
+          "engine": "google",
+          "score": 1.0,
+          "relevance_score": 8,
+          "structured_data": {
+            "original_snippet": "Nov 3, 2024 — Madrid's areas have great potential for investment. 1 ... Usera to exclusive Salamanca, each area offers its own particular opportunities.",
+            "cleaned_snippet": "Nov 3, 2024 — Madrid's areas have great potential for investment. Usera to exclusive Salamanca, each area offers its own particular opportunities.",
+            "extracted_metrics": {},
+            "key_facts": [
+              "Nov 3, 2024 — Madrid's areas have great potential for investment."
+            ],
+            "data_quality": "low",
+            "extraction_timestamp": "2025-06-27T09:55:58.448921"
+          }
+        },
+        {
+          "title": "12 hottest real estate areas in Madrid in 2025",
+          "url": "https://investropa.com/blogs/news/madrid-which-area",
+          "snippet": "Feb 24, 2025 — People are buzzing about Usera because property prices here are lower than in other Madrid districts. Back in September 2024, the average ...",
+          "engine": "google",
+          "score": 0.25,
+          "relevance_score": 8,
+          "structured_data": {
+            "original_snippet": "Feb 24, 2025 — People are buzzing about Usera because property prices here are lower than in other Madrid districts. Back in September 2024, the average ...",
+            "cleaned_snippet": "Feb 24, 2025 — People are buzzing about Usera because property prices here are lower than in other Madrid districts. Back in September 2024, the average.",
+            "extracted_metrics": {},
+            "key_facts": [
+              "Feb 24, 2025 — People are buzzing about Usera because property prices here are lower than in other Madrid districts."
+            ],
+            "data_quality": "low",
+            "extraction_timestamp": "2025-06-27T09:55:58.450274"
+          }
+        },
+        {
+          "title": "Madrid",
+          "url": "https://en.wikipedia.org/wiki/Madrid",
+          "snippet": "Madrid is the capital and most populous municipality of Spain. It has almost 3.5 million inhabitants and a metropolitan area population of approximately 7 ...",
+          "engine": "google",
+          "score": 1.0,
+          "relevance_score": 6,
+          "structured_data": {
+            "original_snippet": "Madrid is the capital and most populous municipality of Spain. It has almost 3.5 million inhabitants and a metropolitan area population of approximately 7 ...",
+            "cleaned_snippet": "Madrid is the capital and most populous municipality of Spain. It has almost 3.",
+            "extracted_metrics": {},
+            "key_facts": [],
+            "data_quality": "low",
+            "extraction_timestamp": "2025-06-27T09:55:58.452062"
+          }
+        }
+      ],
+      "search_term": "Usera, Madrid investment_potential",
+      "search_engine": "searxng",
+      "instance_used": "https://searx.projectlounge.pw",
+      "response_time": "8.44s",
+      "total_results": 5,
+      "timestamp": "2025-06-27 09:55:58",
+      "structured_summary": {
+        "combined_metrics": {},
+        "key_facts": [
+          "Nov 3, 2024 — Madrid's areas have great potential for investment.",
+          "Feb 24, 2025 — People are buzzing about Usera because property prices here are lower than in other Madrid districts.",
+          "4 new homes and developments for sale in Usera, Madrid, Spain.",
+          "Investment opportunities · Rentalia, holiday rentals · Price reports."
+        ],
+        "data_quality": "low",
+        "extraction_success": 5
+      }
+    }
+  },
+  "search_metadata": {
+    "total_time": "10.35s",
+    "timestamp": "2025-06-27T09:55:58.453839",
+    "search_engine": "searxng",
+    "mode": "fast"
+  },
+  "saved_at": "2025-06-27T09:55:58.453931",
+  "saved_to": "enrichment_results/usera_madrid_neighborhood_search_20250627_095558.json",
+  "search_type": "neighborhood_search"
+}

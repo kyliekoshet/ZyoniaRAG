@@ -1,0 +1,386 @@
+{
+  "neighborhood": "Centro, Madrid",
+  "query": "Is it good for investment?",
+  "priority_category": "investment_potential",
+  "fast_mode": false,
+  "instant_results": {
+    "investment_potential": {
+      "sources": [
+        {
+          "title": "Centro Neighborhood of Madrid - The City Center - Madrid Estate",
+          "url": "https://madrid-estate.com/neighborhoods/centro",
+          "snippet": "The Centro neighborhood of Madrid is the oldest, most historic part of the city. Keep in mind: it can be confusing when talking about Madrid neighborhoods, because there are names that are locally used for different sections of Barrio Centro which are different from the official district names. Take La Latina, for example. Everyone refers to it as La Latina, but its official name is Palacio. Likew...",
+          "engine": "brave",
+          "score": 1.0,
+          "relevance_score": 12,
+          "content_enhanced": true,
+          "confidence_score": 43,
+          "confidence_level": "low",
+          "score_breakdown": {
+            "domain_authority": 15,
+            "content_quality": 13,
+            "technical_quality": 10,
+            "recency_estimate": 5
+          },
+          "quality_metrics": {
+            "neighborhood_specificity": 6,
+            "query_relevance": 1,
+            "content_depth": 6,
+            "data_richness": 0
+          },
+          "rag_weight": 0.43,
+          "structured_data": {
+            "original_snippet": "The Centro neighborhood of Madrid is the oldest, most historic part of the city. Keep in mind: it can be confusing when talking about Madrid neighborhoods, because there are names that are locally used for different sections of Barrio Centro which are different from the official district names. Take La Latina, for example. Everyone refers to it as La Latina, but its official name is Palacio. Likew...",
+            "cleaned_snippet": "The Centro neighborhood of Madrid is the oldest, most historic part of the city. Keep in mind: it can be confusing when talking about Madrid neighborhoods, because there are names that are locally used for different sections of Barrio Centro which are different from the official district names. Take La Latina, for example. Everyone refers to it as La Latina, but its official name is Palacio.",
+            "extracted_metrics": {},
+            "key_facts": [],
+            "data_quality": "low",
+            "extraction_timestamp": "2025-06-27T09:37:38.077281"
+          }
+        },
+        {
+          "title": "Property for sale in Centro, Madrid, Spain: houses and flats — idealista",
+          "url": "https://www.idealista.com/en/venta-viviendas/madrid/centro/",
+          "snippet": "1,993 houses and flats for sale in Madrid - Centro, Spain, from 79,900 euros. Property in Madrid - Centro for sale direct from owners and real estate agents. idealista, the leading real estate marketplace in Spain.",
+          "engine": "google",
+          "score": 0.6818181818181819,
+          "relevance_score": 12,
+          "content_enhanced": false,
+          "confidence_score": 41,
+          "confidence_level": "low",
+          "score_breakdown": {
+            "domain_authority": 28,
+            "content_quality": 3,
+            "technical_quality": 5,
+            "recency_estimate": 5
+          },
+          "quality_metrics": {
+            "neighborhood_specificity": 0,
+            "query_relevance": 3,
+            "content_depth": 0,
+            "data_richness": 0
+          },
+          "rag_weight": 0.41,
+          "structured_data": {
+            "original_snippet": "1,993 houses and flats for sale in Madrid - Centro, Spain, from 79,900 euros. Property in Madrid - Centro for sale direct from owners and real estate agents. idealista, the leading real estate marketplace in Spain.",
+            "cleaned_snippet": "Property in Madrid - Centro for sale direct from owners and real estate agents.",
+            "extracted_metrics": {},
+            "key_facts": [
+              "idealista, the leading real estate marketplace in Spain."
+            ],
+            "data_quality": "low",
+            "extraction_timestamp": "2025-06-27T09:37:38.085358"
+          }
+        },
+        {
+          "title": "Centro. The best areas to live in Madrid #4 - Life in the Move",
+          "url": "https://lifeinthemove.com/en/housing/centro-best-areas-madrid/",
+          "snippet": "Do you want to know which area of Madrid would be a good fit for you? | This post is part of the “The best areas to live in Madrid” Series. In this post I’ll share info about the Centro district that will help you get an idea of what your life would be like in this area, the type of housing you can find, its prices and the activities available by just going out on the street and walking a few minu...",
+          "engine": "brave",
+          "score": 0.14285714285714285,
+          "relevance_score": 12,
+          "content_enhanced": true,
+          "confidence_score": 39,
+          "confidence_level": "low",
+          "score_breakdown": {
+            "domain_authority": 15,
+            "content_quality": 9,
+            "technical_quality": 10,
+            "recency_estimate": 5
+          },
+          "quality_metrics": {
+            "neighborhood_specificity": 4,
+            "query_relevance": 1,
+            "content_depth": 4,
+            "data_richness": 0
+          },
+          "rag_weight": 0.39,
+          "structured_data": {
+            "original_snippet": "Do you want to know which area of Madrid would be a good fit for you? | This post is part of the “The best areas to live in Madrid” Series. In this post I’ll share info about the Centro district that will help you get an idea of what your life would be like in this area, the type of housing you can find, its prices and the activities available by just going out on the street and walking a few minu...",
+            "cleaned_snippet": "Do you want to know which area of Madrid would be a good fit for you? | This post is part of the “The best areas to live in Madrid” Series. In this post I’ll share info about the Centro district that will help you get an idea of what your life would be like in this area, the type of housing you can find, its prices and the activities available by just going out on the street and walking a few minu.",
+            "extracted_metrics": {},
+            "key_facts": [],
+            "data_quality": "low",
+            "extraction_timestamp": "2025-06-27T09:37:38.086745"
+          }
+        },
+        {
+          "title": "THE 5 BEST Neighborhoods in Centro (Madrid) - Updated 2025",
+          "url": "https://www.tripadvisor.com/Attractions-g187514-Activities-c47-t34-zfn7249707-Madrid.html",
+          "snippet": "Top 5 Neighborhoods in Centro: See reviews and photos of Neighborhoods in Centro, Madrid (Spain) on Tripadvisor.",
+          "engine": "brave",
+          "score": 0.3333333333333333,
+          "relevance_score": 11,
+          "content_enhanced": false,
+          "confidence_score": 44,
+          "confidence_level": "low",
+          "score_breakdown": {
+            "domain_authority": 20,
+            "content_quality": 9,
+            "technical_quality": 5,
+            "recency_estimate": 10
+          },
+          "quality_metrics": {
+            "neighborhood_specificity": 2,
+            "query_relevance": 3,
+            "content_depth": 4,
+            "data_richness": 0
+          },
+          "rag_weight": 0.44,
+          "structured_data": {
+            "original_snippet": "Top 5 Neighborhoods in Centro: See reviews and photos of Neighborhoods in Centro, Madrid (Spain) on Tripadvisor.",
+            "cleaned_snippet": "Top 5 Neighborhoods in Centro: and photos of Neighborhoods in Centro, Madrid (Spain) on Tripadvisor.",
+            "extracted_metrics": {},
+            "key_facts": [],
+            "data_quality": "low",
+            "extraction_timestamp": "2025-06-27T09:37:38.091101"
+          }
+        },
+        {
+          "title": "Madrid's best areas to invest: guide for investors",
+          "url": "https://blog.dflatmadrid.com/en/areas-to-invest-in-madrid/",
+          "snippet": "Nov 3, 2024 — Madrid's areas have great potential for investment. 1. Barrio de ... These neighborhoods in the Centro district, close to Gran Vía and ...",
+          "engine": "google",
+          "score": 3.0,
+          "relevance_score": 8,
+          "content_enhanced": false,
+          "confidence_score": 45,
+          "confidence_level": "low",
+          "score_breakdown": {
+            "domain_authority": 15,
+            "content_quality": 17,
+            "technical_quality": 5,
+            "recency_estimate": 8
+          },
+          "quality_metrics": {
+            "neighborhood_specificity": 8,
+            "query_relevance": 1,
+            "content_depth": 8,
+            "data_richness": 0
+          },
+          "rag_weight": 0.45,
+          "structured_data": {
+            "original_snippet": "Nov 3, 2024 — Madrid's areas have great potential for investment. 1. Barrio de ... These neighborhoods in the Centro district, close to Gran Vía and ...",
+            "cleaned_snippet": "Nov 3, 2024 — Madrid's areas have great potential for investment. These neighborhoods in the Centro district, close to Gran Vía and.",
+            "extracted_metrics": {},
+            "key_facts": [
+              "Nov 3, 2024 — Madrid's areas have great potential for investment."
+            ],
+            "data_quality": "low",
+            "extraction_timestamp": "2025-06-27T09:37:38.091915"
+          }
+        },
+        {
+          "title": "Centro (Madrid) - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Centro_(Madrid)",
+          "snippet": "The district currently houses the central government of the Community of Madrid, in Puerta del Sol. Until 2007, the City Council of Madrid was also located here, in Plaza de la Villa. At present it is located in Cybele Palace, in the district of Retiro. | Centro ([ˈθentɾo], \"Centre\") is a district of Madrid, Spain. It is approximately 5.23 km2 (2.02 sq mi) in size. It has a population of 149,718 p...",
+          "engine": "brave",
+          "score": 1.0,
+          "relevance_score": 8,
+          "content_enhanced": true,
+          "confidence_score": 41,
+          "confidence_level": "low",
+          "score_breakdown": {
+            "domain_authority": 15,
+            "content_quality": 10,
+            "technical_quality": 10,
+            "recency_estimate": 6
+          },
+          "quality_metrics": {
+            "neighborhood_specificity": 2,
+            "query_relevance": 1,
+            "content_depth": 5,
+            "data_richness": 2
+          },
+          "rag_weight": 0.41,
+          "structured_data": {
+            "original_snippet": "The district currently houses the central government of the Community of Madrid, in Puerta del Sol. Until 2007, the City Council of Madrid was also located here, in Plaza de la Villa. At present it is located in Cybele Palace, in the district of Retiro. | Centro ([ˈθentɾo], \"Centre\") is a district of Madrid, Spain. It is approximately 5.23 km2 (2.02 sq mi) in size. It has a population of 149,718 p...",
+            "cleaned_snippet": "The district currently houses the central government of the Community of Madrid, in Puerta del Sol. Until 2007, the City Council of Madrid was also located here, in Plaza de la Villa. At present it is located in Cybele Palace, in the district of Retiro. It is approximately 5. It has a population of 149,718 p.",
+            "extracted_metrics": {},
+            "key_facts": [],
+            "data_quality": "low",
+            "extraction_timestamp": "2025-06-27T09:37:38.092682"
+          }
+        },
+        {
+          "title": "12 hottest real estate areas in Madrid in 2025",
+          "url": "https://investropa.com/blogs/news/madrid-which-area",
+          "snippet": "One of the key reasons for this demand is Madrid's efficient public transport system. The Madrid Metro, buses, and regional trains make it easy for residents to get around, adding to Hortaleza's appeal. Even without specific urban development plans, the ongoing improvements in other Madrid districts suggest that Hortaleza is also seeing similar growth. | The demand for housing in central Madrid, i...",
+          "engine": "google",
+          "score": 0.5,
+          "relevance_score": 8,
+          "content_enhanced": true,
+          "confidence_score": 46,
+          "confidence_level": "low",
+          "score_breakdown": {
+            "domain_authority": 15,
+            "content_quality": 11,
+            "technical_quality": 10,
+            "recency_estimate": 10
+          },
+          "quality_metrics": {
+            "neighborhood_specificity": 4,
+            "query_relevance": 1,
+            "content_depth": 6,
+            "data_richness": 0
+          },
+          "rag_weight": 0.46,
+          "structured_data": {
+            "original_snippet": "One of the key reasons for this demand is Madrid's efficient public transport system. The Madrid Metro, buses, and regional trains make it easy for residents to get around, adding to Hortaleza's appeal. Even without specific urban development plans, the ongoing improvements in other Madrid districts suggest that Hortaleza is also seeing similar growth. | The demand for housing in central Madrid, i...",
+            "cleaned_snippet": "One of the key reasons for this demand is Madrid's efficient public transport system. The Madrid Metro, buses, and regional trains make it easy for residents to get around, adding to Hortaleza's appeal. Even without specific urban development plans, the ongoing improvements in other Madrid districts suggest that Hortaleza is also seeing similar growth.",
+            "extracted_metrics": {},
+            "key_facts": [
+              "Even without specific urban development plans, the ongoing improvements in other Madrid districts suggest that Hortaleza is also seeing similar growth.",
+              "One of the key reasons for this demand is Madrid's efficient public transport system.",
+              "Even without specific urban development plans, the ongoing improvements in other Madrid districts suggest that Hortaleza is also seeing similar growth.",
+              "| The demand for housing in central Madrid, i."
+            ],
+            "data_quality": "low",
+            "extraction_timestamp": "2025-06-27T09:37:38.095637"
+          }
+        },
+        {
+          "title": "What are the good and bad neighborhoods of Madrid, Spain?",
+          "url": "https://www.quora.com/What-are-the-good-and-bad-neighborhoods-of-Madrid-Spain",
+          "snippet": "... Madrid, these are the cool districts in Madrid for youngsters. ... (Centro) still the ancient area but more convienient. I have also lived ...",
+          "engine": "google",
+          "score": 0.14285714285714285,
+          "relevance_score": 8,
+          "content_enhanced": false,
+          "confidence_score": 38,
+          "confidence_level": "low",
+          "score_breakdown": {
+            "domain_authority": 15,
+            "content_quality": 13,
+            "technical_quality": 5,
+            "recency_estimate": 5
+          },
+          "quality_metrics": {
+            "neighborhood_specificity": 6,
+            "query_relevance": 1,
+            "content_depth": 6,
+            "data_richness": 0
+          },
+          "rag_weight": 0.38,
+          "structured_data": {
+            "original_snippet": "... Madrid, these are the cool districts in Madrid for youngsters. ... (Centro) still the ancient area but more convienient. I have also lived ...",
+            "cleaned_snippet": "Madrid, these are the cool districts in Madrid for youngsters. I have also lived.",
+            "extracted_metrics": {},
+            "key_facts": [],
+            "data_quality": "low",
+            "extraction_timestamp": "2025-06-27T09:37:38.099305"
+          }
+        },
+        {
+          "title": "Centro",
+          "url": "https://www.centro.org/",
+          "snippet": "Centro is proud to be Cortland County’s new transit provider. For your convenience we’re providing you with direct access links to some of the most popular areas of interest. Click the …",
+          "engine": "bing",
+          "score": 1.0,
+          "relevance_score": 6,
+          "content_enhanced": false,
+          "confidence_score": 29,
+          "confidence_level": "very_low",
+          "score_breakdown": {
+            "domain_authority": 15,
+            "content_quality": 4,
+            "technical_quality": 5,
+            "recency_estimate": 5
+          },
+          "quality_metrics": {
+            "neighborhood_specificity": 2,
+            "query_relevance": 0,
+            "content_depth": 2,
+            "data_richness": 0
+          },
+          "rag_weight": 0.29,
+          "structured_data": {
+            "original_snippet": "Centro is proud to be Cortland County’s new transit provider. For your convenience we’re providing you with direct access links to some of the most popular areas of interest. Click the …",
+            "cleaned_snippet": "Centro is proud to be Cortland County’s new transit provider. For your convenience we’re providing you with direct access links to some of the most popular areas of interest. Click the ….",
+            "extracted_metrics": {},
+            "key_facts": [],
+            "data_quality": "low",
+            "extraction_timestamp": "2025-06-27T09:37:38.100096"
+          }
+        },
+        {
+          "title": "Routes & Schedules - Centro",
+          "url": "https://www.centro.org/routes-schedules/",
+          "snippet": "Centro Transit Hub (Syracuse) - 599 S. Salina Street. The Centro Transit Hub, located in the heart of Downtown Syracuse, is the central point in the Centro Transit System in Onondaga County. …",
+          "engine": "bing",
+          "score": 0.3333333333333333,
+          "relevance_score": 6,
+          "content_enhanced": false,
+          "confidence_score": 25,
+          "confidence_level": "very_low",
+          "score_breakdown": {
+            "domain_authority": 15,
+            "content_quality": 0,
+            "technical_quality": 5,
+            "recency_estimate": 5
+          },
+          "quality_metrics": {
+            "neighborhood_specificity": 0,
+            "query_relevance": 0,
+            "content_depth": 0,
+            "data_richness": 0
+          },
+          "rag_weight": 0.25,
+          "structured_data": {
+            "original_snippet": "Centro Transit Hub (Syracuse) - 599 S. Salina Street. The Centro Transit Hub, located in the heart of Downtown Syracuse, is the central point in the Centro Transit System in Onondaga County. …",
+            "cleaned_snippet": "Centro Transit Hub (Syracuse) - 599 S. Salina Street. The Centro Transit Hub, located in the heart of Downtown Syracuse, is the central point in the Centro Transit System in Onondaga County.",
+            "extracted_metrics": {},
+            "key_facts": [],
+            "data_quality": "low",
+            "extraction_timestamp": "2025-06-27T09:37:38.102027"
+          }
+        }
+      ],
+      "search_term": "Centro, Madrid investment_potential",
+      "search_engine": "searxng",
+      "instance_used": "https://searx.projectlounge.pw",
+      "response_time": "8.17s",
+      "total_results": 10,
+      "timestamp": "2025-06-27 09:37:20",
+      "content_extraction": {
+        "enhanced_count": 4,
+        "total_sources": 10
+      },
+      "confidence_analysis": {
+        "average_confidence": 39.1,
+        "max_confidence": 46,
+        "high_quality_sources": 0,
+        "total_sources": 10,
+        "confidence_distribution": {
+          "very_high": 0,
+          "high": 0,
+          "medium": 0,
+          "low": 8,
+          "very_low": 2
+        },
+        "overall_reliability": "low"
+      },
+      "structured_summary": {
+        "combined_metrics": {},
+        "key_facts": [
+          "idealista, the leading real estate marketplace in Spain.",
+          "Nov 3, 2024 — Madrid's areas have great potential for investment.",
+          "One of the key reasons for this demand is Madrid's efficient public transport system.",
+          "Even without specific urban development plans, the ongoing improvements in other Madrid districts suggest that Hortaleza is also seeing similar growth.",
+          "| The demand for housing in central Madrid, i."
+        ],
+        "data_quality": "low",
+        "extraction_success": 10
+      }
+    }
+  },
+  "search_metadata": {
+    "total_time": "34.10s",
+    "timestamp": "2025-06-27T09:37:38.104480",
+    "search_engine": "searxng",
+    "mode": "standard"
+  },
+  "saved_at": "2025-06-27T09:37:38.104656",
+  "saved_to": "enrichment_results/centro_madrid_neighborhood_search_20250627_093738.json",
+  "search_type": "neighborhood_search"
+}

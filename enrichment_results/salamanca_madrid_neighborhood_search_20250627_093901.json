@@ -1,0 +1,127 @@
+{
+  "neighborhood": "Salamanca, Madrid",
+  "query": "Is it good for investment?",
+  "priority_category": "investment_potential",
+  "fast_mode": true,
+  "instant_results": {
+    "investment_potential": {
+      "sources": [
+        {
+          "title": "Property for sale in Barrio de Salamanca, Madrid, Spain: houses and flats — idealista",
+          "url": "https://www.idealista.com/en/venta-viviendas/madrid/barrio-de-salamanca/",
+          "snippet": "2,159 houses and flats for sale in Madrid - Barrio de Salamanca, Spain, from 93,600 euros. Property in Madrid - Barrio de Salamanca for sale direct from owners and real estate agents. idealista, the leading real estate marketplace in Spain.",
+          "engine": "google",
+          "score": 2.1818181818181817,
+          "relevance_score": 12,
+          "structured_data": {
+            "original_snippet": "2,159 houses and flats for sale in Madrid - Barrio de Salamanca, Spain, from 93,600 euros. Property in Madrid - Barrio de Salamanca for sale direct from owners and real estate agents. idealista, the leading real estate marketplace in Spain.",
+            "cleaned_snippet": "Property in Madrid - Barrio de Salamanca for sale direct from owners and real estate agents.",
+            "extracted_metrics": {},
+            "key_facts": [
+              "idealista, the leading real estate marketplace in Spain."
+            ],
+            "data_quality": "low",
+            "extraction_timestamp": "2025-06-27T09:39:01.021057"
+          }
+        },
+        {
+          "title": "Madrid's Barrio Salamanca, the most valued and distinguished neighbourhood - Journal - IVORY Homes",
+          "url": "https://www.ivoryhomes.es/en/journal/barrio-salamanca-madrid-valorado-y-distinguido",
+          "snippet": "All of this means that property prices in the Salamanca district are the highest in Madrid and Recoletos in particular is one of the most expensive districts in Spain, reaching over €8,000 per square metre. However, this has not put a brake on the real estate market in this area, which continues to attract potential buyers, both Spanish and foreign, who want to invest or take up residence in this exclusive neighbourhood. There is a wide range of properties for rent in the Barrio ...",
+          "engine": "google",
+          "score": 2.0,
+          "relevance_score": 12,
+          "structured_data": {
+            "original_snippet": "All of this means that property prices in the Salamanca district are the highest in Madrid and Recoletos in particular is one of the most expensive districts in Spain, reaching over €8,000 per square metre. However, this has not put a brake on the real estate market in this area, which continues to attract potential buyers, both Spanish and foreign, who want to invest or take up residence in this exclusive neighbourhood. There is a wide range of properties for rent in the Barrio ...",
+            "cleaned_snippet": "All of this means that property prices in the Salamanca district are the highest in Madrid and Recoletos in particular is one of the most expensive districts in Spain, reaching over €8,000 per square metre. However, this has not put a brake on the real estate market in this area, which continues to attract potential buyers, both Spanish and foreign, who want to invest or take up residence in this exclusive neighbourhood. There is a wide range of properties for rent in the Barrio.",
+            "extracted_metrics": {
+              "price_per_sqm": 8000.0
+            },
+            "key_facts": [],
+            "data_quality": "low",
+            "extraction_timestamp": "2025-06-27T09:39:01.025133"
+          }
+        },
+        {
+          "title": "Salamanca: Madrid’s Historic Upscale Neighborhood Attracts International Interest - Mansion Global",
+          "url": "https://www.mansionglobal.com/articles/salamanca-madrid-s-historic-upscale-neighborhood-attracts-international-interest-69755",
+          "snippet": "Jul 29, 2017 — Today, around 70% of prime property searches in Madrid center around Salamanca, Jerónimos, and Chamberí, according to Ms. Everett-Allen, while ...",
+          "engine": "google",
+          "score": 1.0,
+          "relevance_score": 12,
+          "structured_data": {
+            "original_snippet": "Jul 29, 2017 — Today, around 70% of prime property searches in Madrid center around Salamanca, Jerónimos, and Chamberí, according to Ms. Everett-Allen, while ...",
+            "cleaned_snippet": "Jul 29, 2017 — Today, around 70% of prime property searches in Madrid center around Salamanca, Jerónimos, and Chamberí, according to Ms. Everett-Allen, while.",
+            "extracted_metrics": {},
+            "key_facts": [],
+            "data_quality": "low",
+            "extraction_timestamp": "2025-06-27T09:39:01.029655"
+          }
+        },
+        {
+          "title": "Luxury Homes in Salamanca, Madrid",
+          "url": "https://www.cire-madrid.com/en/homes-salamanca-madrid",
+          "snippet": "Whether you're relocating, acquiring a second residence in Spain, or seeking a high-value investment in European luxury property, Salamanca is Madrid's finest ...",
+          "engine": "google",
+          "score": 0.2,
+          "relevance_score": 12,
+          "structured_data": {
+            "original_snippet": "Whether you're relocating, acquiring a second residence in Spain, or seeking a high-value investment in European luxury property, Salamanca is Madrid's finest ...",
+            "cleaned_snippet": "Whether you're relocating, acquiring a second residence in Spain, or seeking a high-value investment in European luxury property, Salamanca is Madrid's finest.",
+            "extracted_metrics": {},
+            "key_facts": [
+              "Whether you're relocating, acquiring a second residence in Spain, or seeking a high-value investment in European luxury property, Salamanca is Madrid's finest."
+            ],
+            "data_quality": "low",
+            "extraction_timestamp": "2025-06-27T09:39:01.031163"
+          }
+        },
+        {
+          "title": "Salamanca (Madrid) - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Salamanca_(Madrid)",
+          "snippet": "Salamanca is in the outer area of the Rondas, where the neighborhoods of Guindalera and Fuente del Berro originated with more spontaneous urban development. Nowadays, the Salamanca district is one of the wealthiest areas in Madrid and some of its streets, such as Goya or Serrano, are some of the most expensive streets in Spain...",
+          "engine": "brave",
+          "score": 1.0,
+          "relevance_score": 12,
+          "structured_data": {
+            "original_snippet": "Salamanca is in the outer area of the Rondas, where the neighborhoods of Guindalera and Fuente del Berro originated with more spontaneous urban development. Nowadays, the Salamanca district is one of the wealthiest areas in Madrid and some of its streets, such as Goya or Serrano, are some of the most expensive streets in Spain...",
+            "cleaned_snippet": "Salamanca is in the outer area of the Rondas, where the neighborhoods of Guindalera and Fuente del Berro originated with more spontaneous urban development. Nowadays, the Salamanca district is one of the wealthiest areas in Madrid and some of its streets, such as Goya or Serrano, are some of the most expensive streets in Spain.",
+            "extracted_metrics": {},
+            "key_facts": [
+              "Salamanca is in the outer area of the Rondas, where the neighborhoods of Guindalera and Fuente del Berro originated with more spontaneous urban development."
+            ],
+            "data_quality": "low",
+            "extraction_timestamp": "2025-06-27T09:39:01.032900"
+          }
+        }
+      ],
+      "search_term": "Salamanca, Madrid investment_potential",
+      "search_engine": "searxng",
+      "instance_used": "https://searx.projectlounge.pw",
+      "response_time": "4.44s",
+      "total_results": 5,
+      "timestamp": "2025-06-27 09:39:01",
+      "structured_summary": {
+        "combined_metrics": {
+          "price_per_sqm": 8000.0
+        },
+        "key_facts": [
+          "idealista, the leading real estate marketplace in Spain.",
+          "Salamanca is in the outer area of the Rondas, where the neighborhoods of Guindalera and Fuente del Berro originated with more spontaneous urban development.",
+          "Whether you're relocating, acquiring a second residence in Spain, or seeking a high-value investment in European luxury property, Salamanca is Madrid's finest."
+        ],
+        "data_quality": "low",
+        "extraction_success": 5
+      }
+    }
+  },
+  "search_metadata": {
+    "total_time": "6.22s",
+    "timestamp": "2025-06-27T09:39:01.036189",
+    "search_engine": "searxng",
+    "mode": "fast"
+  },
+  "saved_at": "2025-06-27T09:39:01.036232",
+  "saved_to": "enrichment_results/salamanca_madrid_neighborhood_search_20250627_093901.json",
+  "search_type": "neighborhood_search"
+}

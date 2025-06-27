@@ -323,9 +323,79 @@ class StructuredExtractor:
         
         return '. '.join(cleaned_sentences) + '.' if cleaned_sentences else text
     
+    def _validate_metric_context(self, snippet: str, neighborhood: str, metric_name: str, metric_value: Any) -> bool:
+        """
+        Validate that an extracted metric actually refers to the target neighborhood.
+        
+        Args:
+            snippet: Text snippet where metric was found
+            neighborhood: Target neighborhood name
+            metric_name: Name of the extracted metric
+            metric_value: Value of the extracted metric
+            
+        Returns:
+            True if metric is contextually valid for the neighborhood
+        """
+        if not neighborhood or not snippet:
+            return False
+            
+        snippet_lower = snippet.lower()
+        neighborhood_parts = [part.strip().lower() for part in neighborhood.split(',')]
+        primary_neighborhood = neighborhood_parts[0] if neighborhood_parts else neighborhood.lower()
+        
+        # Check for exclusionary phrases that indicate the metric refers to something else
+        exclusionary_phrases = [
+            'other areas', 'outskirts', 'surrounding areas', 'nearby areas',
+            'different neighborhood', 'another district', 'other districts',
+            'outside', 'exterior', 'peripheral', 'suburbs', 'metropolitan area',
+            'not in', 'excluding', 'except for', 'apart from'
+        ]
+        
+        # If exclusionary phrases are present, reject immediately
+        if any(phrase in snippet_lower for phrase in exclusionary_phrases):
+            logger.warning(f"Metric {metric_name}={metric_value} excluded due to exclusionary context")
+            return False
+        
+        # Split into sentences and check each one
+        sentences = snippet.split('.')
+        for sentence in sentences:
+            sentence_lower = sentence.strip().lower()
+            
+            # If sentence contains the metric value, check if it's neighborhood-specific
+            metric_variations = [
+                str(metric_value).replace('.0', ''),  # Remove .0 from floats
+                str(int(float(metric_value))) if isinstance(metric_value, (int, float)) else str(metric_value),
+                f"{metric_value:,.0f}" if isinstance(metric_value, (int, float)) else str(metric_value)  # With commas
+            ]
+            
+            sentence_has_metric = any(var in sentence for var in metric_variations)
+            if not sentence_has_metric:
+                continue
+                
+            # Check if the sentence mentions the target neighborhood
+            neighborhood_in_sentence = any(part in sentence_lower for part in neighborhood_parts if len(part) > 2)
+            
+            if neighborhood_in_sentence:
+                logger.info(f"Metric {metric_name}={metric_value} validated - found in neighborhood-specific sentence")
+                return True
+                
+            # If no neighborhood mentioned in this sentence, but it's a price/metric sentence
+            # and no exclusionary context, be more permissive for very specific contexts
+            if (metric_name in ['price_per_sqm', 'annual_growth'] and 
+                any(keyword in sentence_lower for keyword in ['real estate', 'property', 'investment', 'market', 'price'])):
+                # Only accept if the overall snippet clearly talks about the target neighborhood
+                snippet_mentions_neighborhood = any(part in snippet_lower for part in neighborhood_parts if len(part) > 2)
+                if snippet_mentions_neighborhood:
+                    logger.info(f"Metric {metric_name}={metric_value} validated - real estate context with neighborhood mention")
+                    return True
+        
+        # Conservative rejection if no clear context
+        logger.warning(f"No clear neighborhood context found for metric {metric_name}={metric_value}")
+        return False
+    
     def extract_structured_data(self, snippet: str, category: str, neighborhood: str) -> Dict[str, Any]:
         """
-        Main method to extract all structured data from a snippet.
+        Main method to extract all structured data from a snippet with context validation.
         
         Args:
             snippet: Raw text snippet from search results
@@ -348,16 +418,27 @@ class StructuredExtractor:
                 'extraction_timestamp': datetime.now().isoformat()
             }
             
-            # Extract category-specific data
+            # Extract category-specific data (raw extraction)
+            raw_metrics = {}
             if category == 'investment_potential':
-                structured_data['extracted_metrics'].update(self.extract_prices(snippet))
-                structured_data['extracted_metrics'].update(self.extract_percentages(snippet))
+                raw_metrics.update(self.extract_prices(snippet))
+                raw_metrics.update(self.extract_percentages(snippet))
             elif category == 'crime_rate':
-                structured_data['extracted_metrics'].update(self.extract_crime_stats(snippet))
+                raw_metrics.update(self.extract_crime_stats(snippet))
             elif category == 'cleanliness':
-                structured_data['extracted_metrics'].update(self.extract_cleanliness_stats(snippet))
+                raw_metrics.update(self.extract_cleanliness_stats(snippet))
             elif category == 'public_perception':
-                structured_data['extracted_metrics'].update(self.extract_ratings(snippet))
+                raw_metrics.update(self.extract_ratings(snippet))
+            
+            # Validate each metric against neighborhood context
+            validated_metrics = {}
+            for metric_name, metric_value in raw_metrics.items():
+                if self._validate_metric_context(snippet, neighborhood, metric_name, metric_value):
+                    validated_metrics[metric_name] = metric_value
+                else:
+                    logger.info(f"Rejected metric {metric_name}={metric_value} - no valid context for {neighborhood}")
+            
+            structured_data['extracted_metrics'] = validated_metrics
             
             # Extract key facts for all categories
             structured_data['key_facts'] = self.extract_key_facts(snippet, category)

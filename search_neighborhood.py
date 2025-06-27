@@ -1,216 +1,191 @@
 #!/usr/bin/env python3
 """
-Simple neighborhood search script with automatic JSON file saving.
-Usage: python3 search_neighborhood.py "Neighborhood Name" "Your question"
+Enhanced Neighborhood Search System
+Searches for neighborhood information using SearxNG with multiple fallback instances
 """
 
 import sys
-import os
-import json
 import time
+import json
 from datetime import datetime
-from concurrent.futures import ThreadPoolExecutor, as_completed
 
-# Add external_enrichment to path
-sys.path.append(os.path.join(os.path.dirname(__file__), 'external_enrichment'))
+# Import our enhanced components
+from external_enrichment.category_detector import CategoryDetector
+from external_enrichment.searxng_engine import SearxNGEngine
+from external_enrichment.result_saver import ResultSaver
 
-from category_detector import CategoryDetector
-from duckduckgo_engine import DuckDuckGoEngine
-from result_saver import ResultSaver
-from external_enrichment.config import SEARCH_CATEGORIES
-
-
-def search_single_category(engine, neighborhood, category):
+def search_single_category(engine, neighborhood, category, fast_mode=False):
     """
     Search for a single category with error handling.
     
     Args:
-        engine: DuckDuckGoEngine instance
+        engine: SearxNGEngine instance
         neighborhood: Neighborhood name
         category: Category to search for
+        fast_mode: If True, disables expensive operations for faster response
         
     Returns:
         Tuple of (category, result_dict)
     """
     try:
-        category_config = SEARCH_CATEGORIES[category]
-        search_term = category_config['search_terms'][0].format(neighborhood=neighborhood)
+        # Import category-specific search terms
+        from external_enrichment.config import SEARCH_SETTINGS
         
-        print(f"🔍 Searching {category}: {search_term}")
-        
-        result = engine.search(
-            search_term,
-            enhance_content=True,
-            add_confidence=True,
-            category=category,
-            neighborhood=neighborhood
-        )
-        
-        return (category, result)
-        
-    except Exception as e:
-        print(f"❌ Error searching {category}: {e}")
-        return (category, {
-            "sources": [],
-            "search_term": f"{neighborhood} {category}",
-            "search_engine": "duckduckgo",
-            "error": str(e),
-            "total_results": 0,
-            "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        })
-
-
-def search_neighborhood(neighborhood, query):
-    """
-    Search for neighborhood information across ALL categories and save results to JSON file.
-    
-    Args:
-        neighborhood: Neighborhood name (e.g., "Chamartin, Madrid")
-        query: User's question (e.g., "What's the crime rate?")
-        
-    Returns:
-        Dictionary with search results and file path
-    """
-    print(f"🏙️ Neighborhood Search System")
-    print("=" * 60)
-    print(f"📍 Neighborhood: {neighborhood}")
-    print(f"🔍 Query: {query}")
-    print()
-    
-    # Initialize components
-    try:
-        detector = CategoryDetector()
-        engine = DuckDuckGoEngine()
-        saver = ResultSaver()
-        
-        # Analyze query to detect category and neighborhood
-        analysis = detector.analyze_query(f"{query} {neighborhood}")
-        
-        # Use detected neighborhood if available, otherwise use provided
-        final_neighborhood = analysis.get('neighborhood') or neighborhood
-        analysis['neighborhood'] = final_neighborhood
-        
-        print(f"🎯 Priority Category: {analysis['priority_category']}")
-        print(f"🔄 Background Categories: {', '.join(analysis['background_categories'])}")
-        print()
-        
-        # Get all categories to search
-        all_categories = [analysis['priority_category']] + analysis['background_categories']
-        print(f"📊 Processing {len(all_categories)} categories: {', '.join(all_categories)}")
-        print()
-        
-        # Search all categories sequentially to avoid rate limits
-        start_time = time.time()
-        all_results = {}
-        
-        print("🚀 Starting sequential category searches...")
-        for i, category in enumerate(all_categories, 1):
-            print(f"🔍 Processing category {i}/{len(all_categories)}: {category}")
-            category, result = search_single_category(engine, final_neighborhood, category)
-            all_results[category] = result
-            print(f"✅ Completed {category}: {result['total_results']} results")
-            
-            # Add delay between categories to respect rate limits
-            if i < len(all_categories):
-                print(f"⏳ Waiting 6 seconds before next category...")
-                time.sleep(6)
-        
-        search_time = time.time() - start_time
-        
-        # Create response with all category results
-        response = {
-            'neighborhood': final_neighborhood,
-            'query': query,
-            'priority_category': analysis['priority_category'],
-            'all_categories_results': all_results,
-            'background_categories': analysis['background_categories'],
-            'status': 'all_categories_complete',
-            'response_time': f"{search_time:.2f}s",
-            'timestamp': datetime.now().isoformat(),
-            'total_categories_processed': len(all_categories),
-            'categories_with_results': len([cat for cat, res in all_results.items() if res['total_results'] > 0])
-        }
-        
-        print(f"✅ All searches completed in {search_time:.2f}s")
-        
-        # Calculate total results across all categories
-        total_results = sum(result['total_results'] for result in all_results.values())
-        print(f"📊 Total results across all categories: {total_results}")
-        
-        # Save to file
-        print()
-        print("💾 Saving comprehensive results...")
-        saved_file = saver.save_search_result(response, final_neighborhood, 'comprehensive_neighborhood_search')
-        
-        if saved_file:
-            response['saved_to_file'] = saved_file
-            
-            # Show summary of results by category
-            print()
-            print("📝 Results Summary by Category:")
-            print("=" * 50)
-            for category in all_categories:
-                result = all_results[category]
-                status = "✅" if result['total_results'] > 0 else "❌"
-                print(f"{status} {category.replace('_', ' ').title()}: {result['total_results']} results")
-                
-                # Show structured data summary if available
-                if 'structured_summary' in result and result['structured_summary']:
-                    summary = result['structured_summary']
-                    metrics_count = len(summary.get('combined_metrics', {}))
-                    facts_count = len(summary.get('key_facts', []))
-                    quality = summary.get('data_quality', 'unknown')
-                    if metrics_count > 0 or facts_count > 0:
-                        print(f"   📊 Extracted: {metrics_count} metrics, {facts_count} facts, {quality} quality")
-            
-            print()
-            print("📋 COMPREHENSIVE SUMMARY:")
-            print("=" * 40)
-            print(f"✅ Results saved to: {saved_file}")
-            print(f"📊 Total results: {total_results}")
-            print(f"⏱️ Response time: {search_time:.2f}s")
-            print(f"🎯 Priority category: {analysis['priority_category']}")
-            print(f"🔄 Categories processed: {len(all_categories)}/5")
-            print(f"📈 Categories with data: {response['categories_with_results']}/{len(all_categories)}")
-            
-            return response
+        # Get category-specific search terms
+        search_terms = SEARCH_SETTINGS.get(category, {}).get('search_terms', [])
+        if search_terms:
+            query = f"{neighborhood} {search_terms[0]}"
         else:
-            print("❌ Failed to save results")
-            return None
+            query = f"{neighborhood} {category}"
+        
+        print(f"🔎 Using enhanced search term: {query}")
+        
+        # Search with fast mode settings
+        if fast_mode:
+            result = engine.search(
+                query=query,
+                enhance_content=False,  # Skip web scraping (saves 10-15s)
+                add_confidence=False,   # Skip confidence scoring (saves 2-3s)
+                category=category,
+                neighborhood=neighborhood,
+                max_results=5  # Fewer results for speed
+            )
+        else:
+            result = engine.search(
+                query=query,
+                enhance_content=True,
+                add_confidence=True,
+                category=category,
+                neighborhood=neighborhood,
+                max_results=10
+            )
             
+        return category, result
+        
     except Exception as e:
-        print(f"❌ Error: {e}")
-        return None
-
+        print(f"❌ Error searching {category}: {str(e)}")
+        return category, {
+            "sources": [],
+            "search_term": query if 'query' in locals() else f"{neighborhood} {category}",
+            "search_engine": "searxng",
+            "error": str(e),
+            "total_results": 0
+        }
 
 def main():
-    """Main function for command line usage."""
     if len(sys.argv) < 3:
-        print("🏙️ Neighborhood Search System")
-        print("=" * 50)
-        print("Usage: python3 search_neighborhood.py 'Neighborhood' 'Question'")
-        print()
-        print("Examples:")
-        print("  python3 search_neighborhood.py 'Chamartin, Madrid' 'What is the crime rate?'")
-        print("  python3 search_neighborhood.py 'Soho, London' 'Is it clean and safe?'")
-        print("  python3 search_neighborhood.py 'Malasana, Madrid' 'Good for investment?'")
-        print()
-        print("Available categories:")
-        for category, config in SEARCH_CATEGORIES.items():
-            keywords = ', '.join(config['keywords'][:3])
-            print(f"  • {category}: {keywords}...")
-        return 1
+        print("Usage: python search_neighborhood.py \"<neighborhood>\" \"<query>\" [--fast]")
+        print("Example: python search_neighborhood.py \"Salamanca, Madrid\" \"Is it good for investment?\" --fast")
+        sys.exit(1)
     
     neighborhood = sys.argv[1]
     query = sys.argv[2]
+    fast_mode = "--fast" in sys.argv
     
-    result = search_neighborhood(neighborhood, query)
+    print("🏙️ Neighborhood Search System")
+    print("=" * 60)
+    print(f"📍 Neighborhood: {neighborhood}")
+    print(f"🔍 Query: {query}")
     
-    if result:
-        return 0
+    if fast_mode:
+        print("⚡ Fast Mode: ENABLED (reduced accuracy for speed)")
     else:
-        return 1
-
+        print("🔧 Standard Mode: Full enhancement (slower but more accurate)")
+    
+    start_time = time.time()
+    
+    try:
+        # Initialize components
+        detector = CategoryDetector()
+        engine = SearxNGEngine()
+        saver = ResultSaver()
+        
+        # Detect category
+        category_result = detector.analyze_query(query)
+        priority_category = category_result['priority_category']
+        
+        print(f"🎯 Priority Category: {priority_category}")
+        
+        # Process only the priority category for efficiency
+        print(f"\n📊 Processing priority category only: {priority_category}")
+        print("🚀 Processing priority category...")
+        
+        category, result = search_single_category(engine, neighborhood, priority_category, fast_mode)
+        
+        # Create final results structure
+        final_results = {
+            "neighborhood": neighborhood,
+            "query": query,
+            "priority_category": priority_category,
+            "fast_mode": fast_mode,
+            "instant_results": {
+                priority_category: result
+            },
+            "search_metadata": {
+                "total_time": f"{time.time() - start_time:.2f}s",
+                "timestamp": datetime.now().isoformat(),
+                "search_engine": "searxng",
+                "mode": "fast" if fast_mode else "standard"
+            }
+        }
+        
+        # Calculate and display timing
+        elapsed_time = time.time() - start_time
+        print(f"✅ Search completed in {elapsed_time:.2f}s")
+        
+        # Display results summary
+        sources = result.get('sources', [])
+        print(f"📊 Found {len(sources)} results")
+        
+        # Save results
+        print("\n💾 Saving results...")
+        filename = saver.save_search_result(final_results, neighborhood, 'neighborhood_search')
+        print(f"✅ Results saved to: {filename}")
+        
+        # Display top results
+        if sources:
+            print(f"\n📝 Top Results:")
+            print()
+            for i, source in enumerate(sources[:3], 1):
+                title = source.get('title', 'No title')[:80]
+                url = source.get('url', 'No URL')
+                snippet = source.get('snippet', 'No description')[:80]
+                
+                print(f"{i}. {title}")
+                print(f"   🔗 {url}")
+                print(f"   📄 {snippet}...")
+                print()
+        
+        # Display structured data summary (if available and not in fast mode)
+        if not fast_mode and 'structured_summary' in result:
+            summary = result['structured_summary']
+            metrics_count = len(summary.get('combined_metrics', {}))
+            facts_count = len(summary.get('key_facts', []))
+            data_quality = summary.get('data_quality', 'unknown')
+            
+            print(f"📊 Structured Data Extracted:")
+            print(f"   • {metrics_count} metrics, {facts_count} facts")
+            print(f"   • Data quality: {data_quality}")
+        elif fast_mode:
+            print(f"📊 Structured Data: Skipped in fast mode")
+        
+        # Final summary
+        print(f"\n📋 SUMMARY:")
+        print("=" * 40)
+        print(f"✅ Results saved to: {filename}")
+        print(f"📊 Total results: {len(sources)}")
+        print(f"⏱️ Response time: {elapsed_time:.2f}s")
+        print(f"🎯 Category: {priority_category}")
+        if fast_mode:
+            print(f"⚡ Mode: Fast (accuracy reduced for speed)")
+        else:
+            print(f"🔧 Mode: Standard (full enhancement)")
+            
+    except Exception as e:
+        print(f"❌ Critical error: {str(e)}")
+        import traceback
+        traceback.print_exc()
+        sys.exit(1)
 
 if __name__ == "__main__":
-    exit(main()) 
+    main() 

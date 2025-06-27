@@ -1,0 +1,126 @@
+{
+  "neighborhood": "Usera, Madrid",
+  "query": "Is it safe?",
+  "priority_category": "crime_rate",
+  "fast_mode": true,
+  "instant_results": {
+    "crime_rate": {
+      "sources": [
+        {
+          "title": "What is the crime rate of each neighbourhood in Madrid ...",
+          "url": "https://www.quora.com/What-is-the-crime-rate-of-each-neighbourhood-in-Madrid-2021",
+          "snippet": "15 — Moratalaz (middle class residential district to the east). 16 — Usera (lower-middle class residential district, and Chinatown of Madrid).",
+          "engine": "google",
+          "score": 1.0,
+          "relevance_score": 8,
+          "structured_data": {
+            "original_snippet": "15 — Moratalaz (middle class residential district to the east). 16 — Usera (lower-middle class residential district, and Chinatown of Madrid).",
+            "cleaned_snippet": "15 — Moratalaz (middle class residential district to the east). 16 — Usera (lower-middle class residential district, and Chinatown of Madrid).",
+            "extracted_metrics": {},
+            "key_facts": [],
+            "data_quality": "low",
+            "extraction_timestamp": "2025-06-27T09:56:54.881326"
+          }
+        },
+        {
+          "title": "Exploring Madrid: 5 Areas to Avoid for a Safe Experience",
+          "url": "https://fringemadrid.com/areas-to-avoid-in-madrid/",
+          "snippet": "Oct 6, 2023 — 4. Usera. This district in Spain is known for its extreme gang-related violence and is located south of the center of Madrid. History shows this ...",
+          "engine": "google",
+          "score": 0.3333333333333333,
+          "relevance_score": 8,
+          "structured_data": {
+            "original_snippet": "Oct 6, 2023 — 4. Usera. This district in Spain is known for its extreme gang-related violence and is located south of the center of Madrid. History shows this ...",
+            "cleaned_snippet": "Oct 6, 2023 — 4. This district in Spain is known for its extreme gang-related violence and is located south of the center of Madrid. History shows this.",
+            "extracted_metrics": {},
+            "key_facts": [
+              "This district in Spain is known for its extreme gang-related violence and is located south of the center of Madrid."
+            ],
+            "data_quality": "low",
+            "extraction_timestamp": "2025-06-27T09:56:54.884465"
+          }
+        },
+        {
+          "title": "What are the most dangerous parts of Madrid?",
+          "url": "https://www.quora.com/What-are-the-most-dangerous-parts-of-Madrid",
+          "snippet": "15 — Moratalaz (middle class residential district to the east). 16 — Usera (lower-middle class residential district, and Chinatown of Madrid).",
+          "engine": "google",
+          "score": 0.25,
+          "relevance_score": 8,
+          "structured_data": {
+            "original_snippet": "15 — Moratalaz (middle class residential district to the east). 16 — Usera (lower-middle class residential district, and Chinatown of Madrid).",
+            "cleaned_snippet": "15 — Moratalaz (middle class residential district to the east). 16 — Usera (lower-middle class residential district, and Chinatown of Madrid).",
+            "extracted_metrics": {},
+            "key_facts": [],
+            "data_quality": "low",
+            "extraction_timestamp": "2025-06-27T09:56:54.885945"
+          }
+        },
+        {
+          "title": "Gangs of Madrid: Is Madrid a Safe City?",
+          "url": "https://www.themakingofmadrid.com/2022/11/28/gangs-of-madrid-is-madrid-a-safe-city/",
+          "snippet": "Nov 28, 2022 — Back in the 18th century, before the neighbourhoods of Usera and ... Crime in Madrid. Despite the gang wars, modern Madrid is a much ...",
+          "engine": "google",
+          "score": 0.2,
+          "relevance_score": 8,
+          "structured_data": {
+            "original_snippet": "Nov 28, 2022 — Back in the 18th century, before the neighbourhoods of Usera and ... Crime in Madrid. Despite the gang wars, modern Madrid is a much ...",
+            "cleaned_snippet": "Nov 28, 2022 — Back in the 18th century, before the neighbourhoods of Usera and. Crime in Madrid. Despite the gang wars, modern Madrid is a much.",
+            "extracted_metrics": {},
+            "key_facts": [],
+            "data_quality": "low",
+            "extraction_timestamp": "2025-06-27T09:56:54.887432"
+          }
+        },
+        {
+          "title": "What are some not safe neighborhoods to live in Madrid",
+          "url": "https://www.reddit.com/r/GoingToSpain/comments/1eqbwau/what_are_some_not_safe_neighborhoods_to_live_in/",
+          "snippet": "... Usera or some other neighborhoods are perceived as unsafe, but the ... Hi, I just published an analysis on Madrid crime rates by district.",
+          "engine": "google",
+          "score": 0.5,
+          "relevance_score": 7,
+          "structured_data": {
+            "original_snippet": "... Usera or some other neighborhoods are perceived as unsafe, but the ... Hi, I just published an analysis on Madrid crime rates by district.",
+            "cleaned_snippet": "Usera or some other neighborhoods are perceived as unsafe, but the. Hi, I just published an analysis on Madrid crime rates by district.",
+            "extracted_metrics": {
+              "safety_descriptor": "safe"
+            },
+            "key_facts": [
+              "Usera or some other neighborhoods are perceived as unsafe, but the.",
+              "Hi, I just published an analysis on Madrid crime rates by district."
+            ],
+            "data_quality": "medium",
+            "extraction_timestamp": "2025-06-27T09:56:54.888692"
+          }
+        }
+      ],
+      "search_term": "Usera, Madrid crime_rate",
+      "search_engine": "searxng",
+      "instance_used": "https://searx.projectlounge.pw",
+      "response_time": "4.45s",
+      "total_results": 5,
+      "timestamp": "2025-06-27 09:56:54",
+      "structured_summary": {
+        "combined_metrics": {
+          "safety_descriptor": "safe"
+        },
+        "key_facts": [
+          "This district in Spain is known for its extreme gang-related violence and is located south of the center of Madrid.",
+          "Hi, I just published an analysis on Madrid crime rates by district.",
+          "Usera or some other neighborhoods are perceived as unsafe, but the."
+        ],
+        "data_quality": "low",
+        "extraction_success": 5
+      }
+    }
+  },
+  "search_metadata": {
+    "total_time": "6.31s",
+    "timestamp": "2025-06-27T09:56:54.889658",
+    "search_engine": "searxng",
+    "mode": "fast"
+  },
+  "saved_at": "2025-06-27T09:56:54.889706",
+  "saved_to": "enrichment_results/usera_madrid_neighborhood_search_20250627_095654.json",
+  "search_type": "neighborhood_search"
+}

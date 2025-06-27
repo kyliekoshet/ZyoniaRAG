@@ -1,0 +1,129 @@
+{
+  "neighborhood": "Salamanca, Madrid",
+  "query": "How safe is it?",
+  "priority_category": "crime_rate",
+  "fast_mode": true,
+  "instant_results": {
+    "crime_rate": {
+      "sources": [
+        {
+          "title": "The safest neighborhoods in Madrid",
+          "url": "https://barbieri.es/en/the-safest-neighborhoods-in-madrid/",
+          "snippet": "The safest neighborhoods in Madrid · district of Chamberí is an excellent location now that is close by the center and also by the district of Salamanca. It is ...",
+          "engine": "google",
+          "score": 0.3333333333333333,
+          "relevance_score": 8,
+          "structured_data": {
+            "original_snippet": "The safest neighborhoods in Madrid · district of Chamberí is an excellent location now that is close by the center and also by the district of Salamanca. It is ...",
+            "cleaned_snippet": "The safest neighborhoods in Madrid · district of Chamberí is an excellent location now that is close by the center and also by the district of Salamanca.",
+            "extracted_metrics": {
+              "safety_descriptor": "safest"
+            },
+            "key_facts": [
+              "The safest neighborhoods in Madrid · district of Chamberí is an excellent location now that is close by the center and also by the district of Salamanca."
+            ],
+            "data_quality": "low",
+            "extraction_timestamp": "2025-06-27T09:39:16.867181"
+          }
+        },
+        {
+          "title": "What are the good and bad neighborhoods of Salamanca, ...",
+          "url": "https://www.quora.com/What-are-the-good-and-bad-neighborhoods-of-Salamanca-Spain",
+          "snippet": "Distrito de Salamanca in Madrid consists of SIX 'Barrios': Recoletos; Goya; Fuente del Berro; La Guindalera . Lista; Castellana.",
+          "engine": "google",
+          "score": 0.25,
+          "relevance_score": 8,
+          "structured_data": {
+            "original_snippet": "Distrito de Salamanca in Madrid consists of SIX 'Barrios': Recoletos; Goya; Fuente del Berro; La Guindalera . Lista; Castellana.",
+            "cleaned_snippet": "Distrito de Salamanca in Madrid consists of SIX 'Barrios': Recoletos; Goya; Fuente del Berro; La Guindalera. Lista; Castellana.",
+            "extracted_metrics": {},
+            "key_facts": [],
+            "data_quality": "low",
+            "extraction_timestamp": "2025-06-27T09:39:16.871743"
+          }
+        },
+        {
+          "title": "Best Neighborhoods in Madrid to Live in 2024",
+          "url": "https://www.veiranda.com/blog-details/best-neighborhoods-in-madrid-to-live-128",
+          "snippet": "Sep 27, 2024 — Beyond its luxurious appeal, Salamanca is one of the safest neighborhoods in Madrid for families, making it ideal for families and expats. Its ...",
+          "engine": "google",
+          "score": 0.2,
+          "relevance_score": 8,
+          "structured_data": {
+            "original_snippet": "Sep 27, 2024 — Beyond its luxurious appeal, Salamanca is one of the safest neighborhoods in Madrid for families, making it ideal for families and expats. Its ...",
+            "cleaned_snippet": "Sep 27, 2024 — Beyond its luxurious appeal, Salamanca is one of the safest neighborhoods in Madrid for families, making it ideal for families and expats.",
+            "extracted_metrics": {
+              "safety_descriptor": "safest"
+            },
+            "key_facts": [
+              "Sep 27, 2024 — Beyond its luxurious appeal, Salamanca is one of the safest neighborhoods in Madrid for families, making it ideal for families and expats."
+            ],
+            "data_quality": "low",
+            "extraction_timestamp": "2025-06-27T09:39:16.875180"
+          }
+        },
+        {
+          "title": "What are some not safe neighborhoods to live in Madrid",
+          "url": "https://www.reddit.com/r/GoingToSpain/comments/1eqbwau/what_are_some_not_safe_neighborhoods_to_live_in/",
+          "snippet": "Salamanca district is where more robbers and bad people live. ... Hi, I just published an analysis on Madrid crime rates by district.",
+          "engine": "google",
+          "score": 0.5,
+          "relevance_score": 7,
+          "structured_data": {
+            "original_snippet": "Salamanca district is where more robbers and bad people live. ... Hi, I just published an analysis on Madrid crime rates by district.",
+            "cleaned_snippet": "Salamanca district is where more robbers and bad people live. Hi, I just published an analysis on Madrid crime rates by district.",
+            "extracted_metrics": {},
+            "key_facts": [
+              "Hi, I just published an analysis on Madrid crime rates by district."
+            ],
+            "data_quality": "low",
+            "extraction_timestamp": "2025-06-27T09:39:16.878027"
+          }
+        },
+        {
+          "title": "Salamanca - Wikipedia",
+          "url": "https://en.m.wikipedia.org/wiki/Salamanca",
+          "snippet": "Salamanca (Spanish: [salaˈmaŋka] ⓘ) is a municipality and city in Spain, capital of the province of the same name. Located in the autonomous community of Castile and León. It is located in the …",
+          "engine": "bing",
+          "score": 1.0,
+          "relevance_score": 6,
+          "structured_data": {
+            "original_snippet": "Salamanca (Spanish: [salaˈmaŋka] ⓘ) is a municipality and city in Spain, capital of the province of the same name. Located in the autonomous community of Castile and León. It is located in the …",
+            "cleaned_snippet": "Salamanca (Spanish: [salaˈmaŋka] ⓘ) is a municipality and city in Spain, capital of the province of the same name. Located in the autonomous community of Castile and León. It is located in the ….",
+            "extracted_metrics": {},
+            "key_facts": [],
+            "data_quality": "low",
+            "extraction_timestamp": "2025-06-27T09:39:16.879507"
+          }
+        }
+      ],
+      "search_term": "Salamanca, Madrid crime_rate",
+      "search_engine": "searxng",
+      "instance_used": "https://searx.projectlounge.pw",
+      "response_time": "6.79s",
+      "total_results": 5,
+      "timestamp": "2025-06-27 09:39:16",
+      "structured_summary": {
+        "combined_metrics": {
+          "safety_descriptor": "safest"
+        },
+        "key_facts": [
+          "The safest neighborhoods in Madrid · district of Chamberí is an excellent location now that is close by the center and also by the district of Salamanca.",
+          "Hi, I just published an analysis on Madrid crime rates by district.",
+          "Sep 27, 2024 — Beyond its luxurious appeal, Salamanca is one of the safest neighborhoods in Madrid for families, making it ideal for families and expats."
+        ],
+        "data_quality": "low",
+        "extraction_success": 5
+      }
+    }
+  },
+  "search_metadata": {
+    "total_time": "8.57s",
+    "timestamp": "2025-06-27T09:39:16.882673",
+    "search_engine": "searxng",
+    "mode": "fast"
+  },
+  "saved_at": "2025-06-27T09:39:16.882740",
+  "saved_to": "enrichment_results/salamanca_madrid_neighborhood_search_20250627_093916.json",
+  "search_type": "neighborhood_search"
+}

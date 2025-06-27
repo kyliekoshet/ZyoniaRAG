@@ -1,0 +1,431 @@
+{
+  "neighborhood": "Chamberí,, Madrid",
+  "query": "How safe is it?",
+  "priority_category": "crime_rate",
+  "instant_results": {
+    "crime_rate": {
+      "sources": [
+        {
+          "title": "The safest neighborhoods in Madrid - Barbieri Real Estate",
+          "url": "https://barbieri.es/en/the-safest-neighborhoods-in-madrid/",
+          "snippet": "The south zone of Madrid comprises areas least safe to reside. The lack of security does not lie in the fact that they are areas with poor houses because you can find wonderful chalets or flats with great quality to live but the crime rate is higher than in the previously mentioned neighborhoods and makes it more unsafe. | Vallecas Bridge continues being one of the most unsafe districts in Madrid....",
+          "engine": "google",
+          "score": 3.0,
+          "relevance_score": 14,
+          "content_enhanced": true,
+          "confidence_score": 55,
+          "confidence_level": "medium",
+          "score_breakdown": {
+            "domain_authority": 15,
+            "content_quality": 25,
+            "technical_quality": 10,
+            "recency_estimate": 5
+          },
+          "quality_metrics": {
+            "neighborhood_specificity": 8,
+            "query_relevance": 6,
+            "content_depth": 9,
+            "data_richness": 2
+          },
+          "rag_weight": 0.55,
+          "structured_data": {
+            "original_snippet": "The south zone of Madrid comprises areas least safe to reside. The lack of security does not lie in the fact that they are areas with poor houses because you can find wonderful chalets or flats with great quality to live but the crime rate is higher than in the previously mentioned neighborhoods and makes it more unsafe. | Vallecas Bridge continues being one of the most unsafe districts in Madrid....",
+            "cleaned_snippet": "The south zone of Madrid comprises areas least safe to reside. The lack of security does not lie in the fact that they are areas with poor houses because you can find wonderful chalets or flats with great quality to live but the crime rate is higher than in the previously mentioned neighborhoods and makes it more unsafe.",
+            "extracted_metrics": {
+              "safety_descriptor": "safe"
+            },
+            "key_facts": [
+              "The south zone of Madrid comprises areas least safe to reside.",
+              "| Vallecas Bridge continues being one of the most unsafe districts in Madrid."
+            ],
+            "data_quality": "medium",
+            "extraction_timestamp": "2025-06-27T09:23:04.235045"
+          }
+        },
+        {
+          "title": "Madrid's Chamberi Neigborhood | Best Things to see & do | 2023",
+          "url": "https://www.segwaytour.com/madrids-chamberi-neighborhood/",
+          "snippet": "You will not find a single tourist here and you will be able to enjoy the Madrid atmosphere and discover some great places to taste the best that is available in the capital. It is also an area that we recommend for expats living in Madrid, where you will find intimate and original venues. Elegant and modern, you will be surprised by the number of tapas bars there are. | Keen to get to know Madrid...",
+          "engine": "brave",
+          "score": 0.16666666666666666,
+          "relevance_score": 14,
+          "content_enhanced": true,
+          "confidence_score": 35,
+          "confidence_level": "low",
+          "score_breakdown": {
+            "domain_authority": 15,
+            "content_quality": 5,
+            "technical_quality": 10,
+            "recency_estimate": 5
+          },
+          "quality_metrics": {
+            "neighborhood_specificity": 2,
+            "query_relevance": 1,
+            "content_depth": 2,
+            "data_richness": 0
+          },
+          "rag_weight": 0.35,
+          "structured_data": {
+            "original_snippet": "You will not find a single tourist here and you will be able to enjoy the Madrid atmosphere and discover some great places to taste the best that is available in the capital. It is also an area that we recommend for expats living in Madrid, where you will find intimate and original venues. Elegant and modern, you will be surprised by the number of tapas bars there are. | Keen to get to know Madrid...",
+            "cleaned_snippet": "You will not find a single tourist here and you will be able to enjoy the Madrid atmosphere and discover some great places to taste the best that is available in the capital. It is also an area that we recommend for expats living in Madrid, where you will find intimate and original venues. Elegant and modern, you will be surprised by the number of tapas bars there are.",
+            "extracted_metrics": {},
+            "key_facts": [],
+            "data_quality": "low",
+            "extraction_timestamp": "2025-06-27T09:23:04.240011"
+          }
+        },
+        {
+          "title": "Chamberí - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chamber%C3%AD",
+          "snippet": "Chamberí is a district of Madrid, Spain. It is further subdivided into six neighborhoods (Gaztambide, Arapiles, Trafalgar, Almagro, Ríos Rosas and Vallehermoso).[1] The district junta is headquartered at the plaza de Chamberí [es].[1] The current urban outline was born as part of the Ensanche plan drafted by Carlos María de Castro (approved in 1860).[2] | Media related to Chamberí District, Madrid...",
+          "engine": "brave",
+          "score": 1.0,
+          "relevance_score": 13,
+          "content_enhanced": true,
+          "confidence_score": 42,
+          "confidence_level": "low",
+          "score_breakdown": {
+            "domain_authority": 15,
+            "content_quality": 11,
+            "technical_quality": 10,
+            "recency_estimate": 6
+          },
+          "quality_metrics": {
+            "neighborhood_specificity": 6,
+            "query_relevance": 1,
+            "content_depth": 4,
+            "data_richness": 0
+          },
+          "rag_weight": 0.42,
+          "structured_data": {
+            "original_snippet": "Chamberí is a district of Madrid, Spain. It is further subdivided into six neighborhoods (Gaztambide, Arapiles, Trafalgar, Almagro, Ríos Rosas and Vallehermoso).[1] The district junta is headquartered at the plaza de Chamberí [es].[1] The current urban outline was born as part of the Ensanche plan drafted by Carlos María de Castro (approved in 1860).[2] | Media related to Chamberí District, Madrid...",
+            "cleaned_snippet": "Chamberí is a district of Madrid, Spain. It is further subdivided into six neighborhoods (Gaztambide, Arapiles, Trafalgar, Almagro, Ríos Rosas and Vallehermoso).",
+            "extracted_metrics": {},
+            "key_facts": [],
+            "data_quality": "low",
+            "extraction_timestamp": "2025-06-27T09:23:04.244844"
+          }
+        },
+        {
+          "title": "What is the crime rate of each neighbourhood in Madrid ...",
+          "url": "https://www.quora.com/What-is-the-crime-rate-of-each-neighbourhood-in-Madrid-2021",
+          "snippet": "Now Chamberí, which was bright in alcohol crimes, has the lowest in weapons crime (0/10,000 detainees), Moncloa and Chamartín also have low ...",
+          "engine": "google",
+          "score": 1.0,
+          "relevance_score": 12,
+          "content_enhanced": false,
+          "confidence_score": 34,
+          "confidence_level": "very_low",
+          "score_breakdown": {
+            "domain_authority": 15,
+            "content_quality": 9,
+            "technical_quality": 5,
+            "recency_estimate": 5
+          },
+          "quality_metrics": {
+            "neighborhood_specificity": 0,
+            "query_relevance": 4,
+            "content_depth": 3,
+            "data_richness": 2
+          },
+          "rag_weight": 0.34,
+          "structured_data": {
+            "original_snippet": "Now Chamberí, which was bright in alcohol crimes, has the lowest in weapons crime (0/10,000 detainees), Moncloa and Chamartín also have low ...",
+            "cleaned_snippet": "Now Chamberí, which was bright in alcohol crimes, has the lowest in weapons crime (0/10,000 detainees), Moncloa and Chamartín also have low.",
+            "extracted_metrics": {},
+            "key_facts": [
+              "Now Chamberí, which was bright in alcohol crimes, has the lowest in weapons crime (0/10,000 detainees), Moncloa and Chamartín also have low."
+            ],
+            "data_quality": "low",
+            "extraction_timestamp": "2025-06-27T09:23:04.249142"
+          }
+        },
+        {
+          "title": "Is Madrid Safe? (2025) Expert Tips (Read Before Travel)",
+          "url": "https://www.urbanabroad.com/is-madrid-safe/",
+          "snippet": "We have covered a list of the safest cities in Europe to visit on this blog for you to compare, however, keep reading this specific page to learn more about common crimes, areas and neighborhoods to avoid as well as how to stay safe in Madrid. | Yes, Madrid is safe at night as long you avoid dark and isolated streets. The central areas of the city are generally safe, but as with any other big city...",
+          "engine": "brave",
+          "score": 0.5,
+          "relevance_score": 12,
+          "content_enhanced": true,
+          "confidence_score": 45,
+          "confidence_level": "low",
+          "score_breakdown": {
+            "domain_authority": 15,
+            "content_quality": 10,
+            "technical_quality": 10,
+            "recency_estimate": 10
+          },
+          "quality_metrics": {
+            "neighborhood_specificity": 4,
+            "query_relevance": 3,
+            "content_depth": 3,
+            "data_richness": 0
+          },
+          "rag_weight": 0.45,
+          "structured_data": {
+            "original_snippet": "We have covered a list of the safest cities in Europe to visit on this blog for you to compare, however, keep reading this specific page to learn more about common crimes, areas and neighborhoods to avoid as well as how to stay safe in Madrid. | Yes, Madrid is safe at night as long you avoid dark and isolated streets. The central areas of the city are generally safe, but as with any other big city...",
+            "cleaned_snippet": "We have covered a list of the safest cities in Europe to visit on this blog for you to compare, however, keep reading this specific page to learn more about common crimes, areas and neighborhoods to avoid as well as how to stay safe in Madrid. The central areas of the city are generally safe, but as with any other big city.",
+            "extracted_metrics": {
+              "safety_descriptor": "safest"
+            },
+            "key_facts": [
+              "| Yes, Madrid is safe at night as long you avoid dark and isolated streets.",
+              "The central areas of the city are generally safe, but as with any other big city."
+            ],
+            "data_quality": "medium",
+            "extraction_timestamp": "2025-06-27T09:23:04.250159"
+          }
+        },
+        {
+          "title": "What are the best neighborhoods in Madrid? (June 2025)",
+          "url": "https://investropa.com/blogs/news/best-neighborhoods-madrid",
+          "snippet": "Overall, Madrid ranks as the 21st safest city globally according to The Economist's 2021 ranking, with a general crime index of 26.6 out of 100. The city experiences significantly lower violent crime rates than cities like Barcelona or Paris, with most incidents being petty theft and pickpocketing in tourist areas. | Safest neighborhoods include Salamanca, Chamberí, and Retiro, where crime rates a...",
+          "engine": "google",
+          "score": 0.3333333333333333,
+          "relevance_score": 12,
+          "content_enhanced": true,
+          "confidence_score": 58,
+          "confidence_level": "medium",
+          "score_breakdown": {
+            "domain_authority": 15,
+            "content_quality": 23,
+            "technical_quality": 10,
+            "recency_estimate": 10
+          },
+          "quality_metrics": {
+            "neighborhood_specificity": 4,
+            "query_relevance": 4,
+            "content_depth": 9,
+            "data_richness": 6
+          },
+          "rag_weight": 0.58,
+          "structured_data": {
+            "original_snippet": "Overall, Madrid ranks as the 21st safest city globally according to The Economist's 2021 ranking, with a general crime index of 26.6 out of 100. The city experiences significantly lower violent crime rates than cities like Barcelona or Paris, with most incidents being petty theft and pickpocketing in tourist areas. | Safest neighborhoods include Salamanca, Chamberí, and Retiro, where crime rates a...",
+            "cleaned_snippet": "Overall, Madrid ranks as the 21st safest city globally according to The Economist's 2021 ranking, with a general crime index of 26. The city experiences significantly lower violent crime rates than cities like Barcelona or Paris, with most incidents being petty theft and pickpocketing in tourist areas.",
+            "extracted_metrics": {
+              "safety_descriptor": "safest"
+            },
+            "key_facts": [
+              "Overall, Madrid ranks as the 21st safest city globally according to The Economist's 2021 ranking, with a general crime index of 26.",
+              "The city experiences significantly lower violent crime rates than cities like Barcelona or Paris, with most incidents being petty theft and pickpocketing in tourist areas.",
+              "| Safest neighborhoods include Salamanca, Chamberí, and Retiro, where crime rates a.",
+              "The city experiences significantly lower violent crime rates than cities like Barcelona or Paris, with most incidents being petty theft and pickpocketing in tourist areas."
+            ],
+            "data_quality": "medium",
+            "extraction_timestamp": "2025-06-27T09:23:04.253326"
+          }
+        },
+        {
+          "title": "What Are the Safest Neighborhoods in Madrid Spain? - LuxuryTravelDiva",
+          "url": "https://luxurytraveldiva.com/what-are-the-safest-neighborhoods-in-madrid-spain/",
+          "snippet": "When it comes to finding safe neighborhoods in Madrid, these are just a few examples of areas that you can consider. Of course, safety can vary from street to street within each neighborhood, so it’s always important to do your research before making a final decision. However, with their low crime rates and well-lit streets, these neighborhoods are a great place to start your search. 7 Related Que...",
+          "engine": "brave",
+          "score": 0.3333333333333333,
+          "relevance_score": 12,
+          "content_enhanced": true,
+          "confidence_score": 52,
+          "confidence_level": "medium",
+          "score_breakdown": {
+            "domain_authority": 15,
+            "content_quality": 22,
+            "technical_quality": 10,
+            "recency_estimate": 5
+          },
+          "quality_metrics": {
+            "neighborhood_specificity": 4,
+            "query_relevance": 6,
+            "content_depth": 10,
+            "data_richness": 2
+          },
+          "rag_weight": 0.52,
+          "structured_data": {
+            "original_snippet": "When it comes to finding safe neighborhoods in Madrid, these are just a few examples of areas that you can consider. Of course, safety can vary from street to street within each neighborhood, so it’s always important to do your research before making a final decision. However, with their low crime rates and well-lit streets, these neighborhoods are a great place to start your search. 7 Related Que...",
+            "cleaned_snippet": "When it comes to finding safe neighborhoods in Madrid, these are just a few examples of areas that you can consider. Of course, safety can vary from street to street within each neighborhood, so it’s always important to do your research before making a final decision. However, with their low crime rates and well-lit streets, these neighborhoods are a great place to start your search.",
+            "extracted_metrics": {
+              "safety_descriptor": "safe"
+            },
+            "key_facts": [
+              "When it comes to finding safe neighborhoods in Madrid, these are just a few examples of areas that you can consider.",
+              "Of course, safety can vary from street to street within each neighborhood, so it’s always important to do your research before making a final decision.",
+              "However, with their low crime rates and well-lit streets, these neighborhoods are a great place to start your search.",
+              "However, with their low crime rates and well-lit streets, these neighborhoods are a great place to start your search."
+            ],
+            "data_quality": "medium",
+            "extraction_timestamp": "2025-06-27T09:23:04.255602"
+          }
+        },
+        {
+          "title": "Is Madrid Safe? 5 Insider Tips for Worry-Free Travel in Spain's ...",
+          "url": "https://www.realjourneytravels.com/is-madrid-safe/",
+          "snippet": "Madrid, Spain‘s vibrant capital, draws millions of visitors each year with its rich culture and stunning architecture. But is it safe to explore? Madrid is generally a safe city for tourists, with low rates of violent crime. Like many major European destinations, the main safety concern is petty theft and pickpocketing in crowded areas. | Madrid’s crime rate is lower than many other European capit...",
+          "engine": "google",
+          "score": 0.25,
+          "relevance_score": 12,
+          "content_enhanced": true,
+          "confidence_score": 45,
+          "confidence_level": "low",
+          "score_breakdown": {
+            "domain_authority": 15,
+            "content_quality": 15,
+            "technical_quality": 10,
+            "recency_estimate": 5
+          },
+          "quality_metrics": {
+            "neighborhood_specificity": 2,
+            "query_relevance": 6,
+            "content_depth": 5,
+            "data_richness": 2
+          },
+          "rag_weight": 0.45,
+          "structured_data": {
+            "original_snippet": "Madrid, Spain‘s vibrant capital, draws millions of visitors each year with its rich culture and stunning architecture. But is it safe to explore? Madrid is generally a safe city for tourists, with low rates of violent crime. Like many major European destinations, the main safety concern is petty theft and pickpocketing in crowded areas. | Madrid’s crime rate is lower than many other European capit...",
+            "cleaned_snippet": "Madrid, Spain‘s vibrant capital, draws millions of visitors each year with its rich culture and stunning architecture. But is it safe to explore? Madrid is generally a safe city for tourists, with low rates of violent crime. Like many major European destinations, the main safety concern is petty theft and pickpocketing in crowded areas.",
+            "extracted_metrics": {
+              "safety_descriptor": "safe"
+            },
+            "key_facts": [
+              "But is it safe to explore? Madrid is generally a safe city for tourists, with low rates of violent crime.",
+              "Like many major European destinations, the main safety concern is petty theft and pickpocketing in crowded areas.",
+              "| Madrid’s crime rate is lower than many other European capit.",
+              "Like many major European destinations, the main safety concern is petty theft and pickpocketing in crowded areas."
+            ],
+            "data_quality": "medium",
+            "extraction_timestamp": "2025-06-27T09:23:04.258152"
+          }
+        },
+        {
+          "title": "Is Madrid Safe? A Tourist's Guide to Safety and Security",
+          "url": "https://qeepl.com/en/blog/is-madrid-safe-a-tourist-s-guide-to-safety-and-security",
+          "snippet": "As of 2024, Madrid remains a popular and safe destination for tourists. According to Numbeo, the city has a safety index of 72.8 and a crime index of 27.2, making it safer than many major cities worldwide. Local authorities have strengthened security in busy tourist areas by increasing police presence and introducing public safety measures. | Efforts to reduce petty crimes have been effective, and...",
+          "engine": "brave",
+          "score": 0.25,
+          "relevance_score": 12,
+          "content_enhanced": true,
+          "confidence_score": 54,
+          "confidence_level": "medium",
+          "score_breakdown": {
+            "domain_authority": 15,
+            "content_quality": 21,
+            "technical_quality": 10,
+            "recency_estimate": 8
+          },
+          "quality_metrics": {
+            "neighborhood_specificity": 2,
+            "query_relevance": 6,
+            "content_depth": 9,
+            "data_richness": 4
+          },
+          "rag_weight": 0.54,
+          "structured_data": {
+            "original_snippet": "As of 2024, Madrid remains a popular and safe destination for tourists. According to Numbeo, the city has a safety index of 72.8 and a crime index of 27.2, making it safer than many major cities worldwide. Local authorities have strengthened security in busy tourist areas by increasing police presence and introducing public safety measures. | Efforts to reduce petty crimes have been effective, and...",
+            "cleaned_snippet": "As of 2024, Madrid remains a popular and safe destination for tourists. According to Numbeo, the city has a safety index of 72. Local authorities have strengthened security in busy tourist areas by increasing police presence and introducing public safety measures.",
+            "extracted_metrics": {
+              "safety_descriptor": "safe"
+            },
+            "key_facts": [
+              "As of 2024, Madrid remains a popular and safe destination for tourists.",
+              "According to Numbeo, the city has a safety index of 72.",
+              "8 and a crime index of 27.",
+              "2, making it safer than many major cities worldwide.",
+              "Local authorities have strengthened security in busy tourist areas by increasing police presence and introducing public safety measures."
+            ],
+            "data_quality": "medium",
+            "extraction_timestamp": "2025-06-27T09:23:04.261493"
+          }
+        },
+        {
+          "title": "What are the best areas to live in Madrid? (June 2025)",
+          "url": "https://investropa.com/blogs/news/best-areas-live-madrid",
+          "snippet": "Villaverde and Lavapiés experience higher crime rates compared to central districts, especially during evening and nighttime hours. Villaverde, while affordable, faces challenges with petty crime and occasional safety concerns. Lavapiés, despite its cultural diversity and artistic appeal, reports higher incidents of petty theft and can be noisy with increased criminal activity after dark. | Madrid...",
+          "engine": "google",
+          "score": 0.2,
+          "relevance_score": 12,
+          "content_enhanced": true,
+          "confidence_score": 57,
+          "confidence_level": "medium",
+          "score_breakdown": {
+            "domain_authority": 15,
+            "content_quality": 22,
+            "technical_quality": 10,
+            "recency_estimate": 10
+          },
+          "quality_metrics": {
+            "neighborhood_specificity": 4,
+            "query_relevance": 6,
+            "content_depth": 10,
+            "data_richness": 2
+          },
+          "rag_weight": 0.57,
+          "structured_data": {
+            "original_snippet": "Villaverde and Lavapiés experience higher crime rates compared to central districts, especially during evening and nighttime hours. Villaverde, while affordable, faces challenges with petty crime and occasional safety concerns. Lavapiés, despite its cultural diversity and artistic appeal, reports higher incidents of petty theft and can be noisy with increased criminal activity after dark. | Madrid...",
+            "cleaned_snippet": "Villaverde and Lavapiés experience higher crime rates compared to central districts, especially during evening and nighttime hours. Villaverde, while affordable, faces challenges with petty crime and occasional safety concerns. Lavapiés, despite its cultural diversity and artistic appeal, reports higher incidents of petty theft and can be noisy with increased criminal activity after dark.",
+            "extracted_metrics": {},
+            "key_facts": [
+              "Villaverde and Lavapiés experience higher crime rates compared to central districts, especially during evening and nighttime hours.",
+              "Villaverde, while affordable, faces challenges with petty crime and occasional safety concerns.",
+              "Lavapiés, despite its cultural diversity and artistic appeal, reports higher incidents of petty theft and can be noisy with increased criminal activity after dark."
+            ],
+            "data_quality": "low",
+            "extraction_timestamp": "2025-06-27T09:23:04.262982"
+          }
+        }
+      ],
+      "search_term": "Chamberí,, Madrid crime rate safety statistics security",
+      "search_engine": "searxng",
+      "instance_used": "https://searx.projectlounge.pw",
+      "response_time": "5.09s",
+      "total_results": 10,
+      "timestamp": "2025-06-27 09:22:42",
+      "content_extraction": {
+        "enhanced_count": 9,
+        "total_sources": 10
+      },
+      "confidence_analysis": {
+        "average_confidence": 47.7,
+        "max_confidence": 58,
+        "high_quality_sources": 0,
+        "total_sources": 10,
+        "confidence_distribution": {
+          "very_high": 0,
+          "high": 0,
+          "medium": 5,
+          "low": 4,
+          "very_low": 1
+        },
+        "overall_reliability": "low"
+      },
+      "structured_summary": {
+        "combined_metrics": {
+          "safety_descriptor": "safe"
+        },
+        "key_facts": [
+          "| Yes, Madrid is safe at night as long you avoid dark and isolated streets.",
+          "However, with their low crime rates and well-lit streets, these neighborhoods are a great place to start your search.",
+          "8 and a crime index of 27.",
+          "Lavapiés, despite its cultural diversity and artistic appeal, reports higher incidents of petty theft and can be noisy with increased criminal activity after dark.",
+          "Like many major European destinations, the main safety concern is petty theft and pickpocketing in crowded areas.",
+          "The south zone of Madrid comprises areas least safe to reside.",
+          "The central areas of the city are generally safe, but as with any other big city.",
+          "Of course, safety can vary from street to street within each neighborhood, so it’s always important to do your research before making a final decision.",
+          "| Vallecas Bridge continues being one of the most unsafe districts in Madrid.",
+          "When it comes to finding safe neighborhoods in Madrid, these are just a few examples of areas that you can consider."
+        ],
+        "data_quality": "medium",
+        "extraction_success": 10
+      }
+    }
+  },
+  "background_categories": [
+    "cleanliness",
+    "public_perception",
+    "investment_potential",
+    "general_info"
+  ],
+  "status": "priority_complete_background_processing",
+  "response_time": "27.21s",
+  "timestamp": "2025-06-27T09:23:04.265473",
+  "saved_at": "2025-06-27T09:23:04.265510",
+  "saved_to": "enrichment_results/chamberí_madrid_neighborhood_search_20250627_092304.json",
+  "search_type": "neighborhood_search"
+}

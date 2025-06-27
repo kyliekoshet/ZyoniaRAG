@@ -1,0 +1,414 @@
+{
+  "neighborhood": "Chamberí,, Madrid",
+  "query": "Is it good for investment?",
+  "priority_category": "investment_potential",
+  "instant_results": {
+    "investment_potential": {
+      "sources": [
+        {
+          "title": "Chamberí | Tourism Madrid",
+          "url": "https://www.esmadrid.com/en/madrid-neighbourhoods/chamberi",
+          "snippet": "Furthermore, Chamberí boasts three municipal markets: Guzmán el Bueno, Vallehermoso – recently refurbished with many stalls for gourmets - and Chamberí. The latter, opened in 1943, has become consolidated throughout the 70 years that it has been constantly open as one of the main references of the network of markets in Madrid, both for the quality and variety of products and services. In its 50 st...",
+          "engine": "brave",
+          "score": 0.125,
+          "relevance_score": 15,
+          "content_enhanced": true,
+          "confidence_score": 34,
+          "confidence_level": "very_low",
+          "score_breakdown": {
+            "domain_authority": 15,
+            "content_quality": 3,
+            "technical_quality": 10,
+            "recency_estimate": 6
+          },
+          "quality_metrics": {
+            "neighborhood_specificity": 0,
+            "query_relevance": 3,
+            "content_depth": 0,
+            "data_richness": 0
+          },
+          "rag_weight": 0.34,
+          "structured_data": {
+            "original_snippet": "Furthermore, Chamberí boasts three municipal markets: Guzmán el Bueno, Vallehermoso – recently refurbished with many stalls for gourmets - and Chamberí. The latter, opened in 1943, has become consolidated throughout the 70 years that it has been constantly open as one of the main references of the network of markets in Madrid, both for the quality and variety of products and services. In its 50 st...",
+            "cleaned_snippet": "Furthermore, Chamberí boasts three municipal markets: Guzmán el Bueno, Vallehermoso – recently refurbished with many stalls for gourmets - and Chamberí. The latter, opened in 1943, has become consolidated throughout the 70 years that it has been constantly open as one of the main references of the network of markets in Madrid, both for the quality and variety of products and services. In its 50 st.",
+            "extracted_metrics": {},
+            "key_facts": [
+              "Furthermore, Chamberí boasts three municipal markets: Guzmán el Bueno, Vallehermoso – recently refurbished with many stalls for gourmets - and Chamberí."
+            ],
+            "data_quality": "low",
+            "extraction_timestamp": "2025-06-27T09:21:09.805294"
+          }
+        },
+        {
+          "title": "Luxury house for sale in Madrid: Top neighborhoods guide",
+          "url": "https://thegoldenpartners.com/en/blog-en/luxury-house-for-sale-in-madrid/",
+          "snippet": "The seven most luxurious neighborhoods with luxury house for sale in Madrid are Salamanca, Chamberí, Chamartín, Centro, Retiro, Moncloa, and Arganzuela. In addition to Madrid’s most expensive neighborhoods, other areas on the outskirts, well-connected to the city center, also feature high-end properties priced up to €10,000 per square meter (£8.417). If you are considering purchasing in Madrid or ...",
+          "engine": "google",
+          "score": 0.6857142857142857,
+          "relevance_score": 14,
+          "content_enhanced": true,
+          "confidence_score": 43,
+          "confidence_level": "low",
+          "score_breakdown": {
+            "domain_authority": 15,
+            "content_quality": 13,
+            "technical_quality": 10,
+            "recency_estimate": 5
+          },
+          "quality_metrics": {
+            "neighborhood_specificity": 4,
+            "query_relevance": 1,
+            "content_depth": 6,
+            "data_richness": 2
+          },
+          "rag_weight": 0.43,
+          "structured_data": {
+            "original_snippet": "The seven most luxurious neighborhoods with luxury house for sale in Madrid are Salamanca, Chamberí, Chamartín, Centro, Retiro, Moncloa, and Arganzuela. In addition to Madrid’s most expensive neighborhoods, other areas on the outskirts, well-connected to the city center, also feature high-end properties priced up to €10,000 per square meter (£8.417). If you are considering purchasing in Madrid or ...",
+            "cleaned_snippet": "The seven most luxurious neighborhoods with luxury house for sale in Madrid are Salamanca, Chamberí, Chamartín, Centro, Retiro, Moncloa, and Arganzuela. In addition to Madrid’s most expensive neighborhoods, other areas on the outskirts, well-connected to the city center, also feature high-end properties priced up to €10,000 per square meter (£8. If you are considering purchasing in Madrid or.",
+            "extracted_metrics": {},
+            "key_facts": [
+              "In addition to Madrid’s most expensive neighborhoods, other areas on the outskirts, well-connected to the city center, also feature high-end properties priced up to €10,000 per square meter (£8."
+            ],
+            "data_quality": "low",
+            "extraction_timestamp": "2025-06-27T09:21:09.811983"
+          }
+        },
+        {
+          "title": "Neighborhood - Topic: Chamberí",
+          "url": "https://moving2madrid.com/neighborhoods/chamberi/",
+          "snippet": "Read this article to learn who provides phone, TV and fibre optic in Madrid and […]",
+          "engine": "brave",
+          "score": 0.5,
+          "relevance_score": 14,
+          "content_enhanced": true,
+          "confidence_score": 32,
+          "confidence_level": "very_low",
+          "score_breakdown": {
+            "domain_authority": 15,
+            "content_quality": 5,
+            "technical_quality": 7,
+            "recency_estimate": 5
+          },
+          "quality_metrics": {
+            "neighborhood_specificity": 2,
+            "query_relevance": 1,
+            "content_depth": 2,
+            "data_richness": 0
+          },
+          "rag_weight": 0.32,
+          "structured_data": {
+            "original_snippet": "Read this article to learn who provides phone, TV and fibre optic in Madrid and […]",
+            "cleaned_snippet": "Read this article to learn who provides phone, TV and fibre optic in Madrid and […].",
+            "extracted_metrics": {},
+            "key_facts": [],
+            "data_quality": "low",
+            "extraction_timestamp": "2025-06-27T09:21:09.816298"
+          }
+        },
+        {
+          "title": "The Rise of Luxury Real Estate in Madrid, Spain",
+          "url": "https://www.christiesrealestate.com/blog/home-tours/emerging-markets-the-rise-of-luxury-real-estate-in-madrid-spain/",
+          "snippet": "Mar 7, 2025 — ... Real Estate Madrid. While historic Madrid properties in prestigious neighborhoods like Salamanca and Chamberí remain popular, high-end ...",
+          "engine": "google",
+          "score": 0.2,
+          "relevance_score": 14,
+          "content_enhanced": false,
+          "confidence_score": 38,
+          "confidence_level": "low",
+          "score_breakdown": {
+            "domain_authority": 15,
+            "content_quality": 8,
+            "technical_quality": 5,
+            "recency_estimate": 10
+          },
+          "quality_metrics": {
+            "neighborhood_specificity": 2,
+            "query_relevance": 4,
+            "content_depth": 2,
+            "data_richness": 0
+          },
+          "rag_weight": 0.38,
+          "structured_data": {
+            "original_snippet": "Mar 7, 2025 — ... Real Estate Madrid. While historic Madrid properties in prestigious neighborhoods like Salamanca and Chamberí remain popular, high-end ...",
+            "cleaned_snippet": "Mar 7, 2025 —. Real Estate Madrid. While historic Madrid properties in prestigious neighborhoods like Salamanca and Chamberí remain popular, high-end.",
+            "extracted_metrics": {},
+            "key_facts": [],
+            "data_quality": "low",
+            "extraction_timestamp": "2025-06-27T09:21:09.816940"
+          }
+        },
+        {
+          "title": "How to Make a Real Estate Investment in Madrid",
+          "url": "https://www.muppy.com/en/real-estate-investment/madrid",
+          "snippet": "Any real estate investment expert knows the importance of opting for an economically stable market. At this point, Madrid reveals itself as a city endowed with sustained and predictable growth. The constant job creation, together with a GDP growth higher than the Spanish average, show this stability. | The real estate market in Madrid is overwhelming and complex for the average investor. Thus, mor...",
+          "engine": "google",
+          "score": 0.16666666666666666,
+          "relevance_score": 14,
+          "content_enhanced": true,
+          "confidence_score": 37,
+          "confidence_level": "low",
+          "score_breakdown": {
+            "domain_authority": 15,
+            "content_quality": 7,
+            "technical_quality": 10,
+            "recency_estimate": 5
+          },
+          "quality_metrics": {
+            "neighborhood_specificity": 0,
+            "query_relevance": 7,
+            "content_depth": 0,
+            "data_richness": 0
+          },
+          "rag_weight": 0.37,
+          "structured_data": {
+            "original_snippet": "Any real estate investment expert knows the importance of opting for an economically stable market. At this point, Madrid reveals itself as a city endowed with sustained and predictable growth. The constant job creation, together with a GDP growth higher than the Spanish average, show this stability. | The real estate market in Madrid is overwhelming and complex for the average investor. Thus, mor...",
+            "cleaned_snippet": "Any real estate investment expert knows the importance of opting for an economically stable market. At this point, Madrid reveals itself as a city endowed with sustained and predictable growth. The constant job creation, together with a GDP growth higher than the Spanish average, show this stability.",
+            "extracted_metrics": {},
+            "key_facts": [
+              "Any real estate investment expert knows the importance of opting for an economically stable market.",
+              "At this point, Madrid reveals itself as a city endowed with sustained and predictable growth.",
+              "The constant job creation, together with a GDP growth higher than the Spanish average, show this stability.",
+              "| The real estate market in Madrid is overwhelming and complex for the average investor."
+            ],
+            "data_quality": "low",
+            "extraction_timestamp": "2025-06-27T09:21:09.818173"
+          }
+        },
+        {
+          "title": "Chamberi. The best areas to live in Madrid #1 - Life in the Move",
+          "url": "https://lifeinthemove.com/en/housing/chamberi-best-areas-madrid/",
+          "snippet": "Do you want to know which area of Madrid would be a good fit for you? Download our FREE ebook. You’ll get a clear understanding of the best neighborhoods to live, what type of housing and average rental price you’ll find in each of them. Consent I have read and accept the . Read . I want my FREE ebook Check your email Plus, you’ll receive our Newsletter with the most useful info to successfully re...",
+          "engine": "brave",
+          "score": 0.14285714285714285,
+          "relevance_score": 14,
+          "content_enhanced": true,
+          "confidence_score": 39,
+          "confidence_level": "low",
+          "score_breakdown": {
+            "domain_authority": 15,
+            "content_quality": 9,
+            "technical_quality": 10,
+            "recency_estimate": 5
+          },
+          "quality_metrics": {
+            "neighborhood_specificity": 4,
+            "query_relevance": 1,
+            "content_depth": 4,
+            "data_richness": 0
+          },
+          "rag_weight": 0.39,
+          "structured_data": {
+            "original_snippet": "Do you want to know which area of Madrid would be a good fit for you? Download our FREE ebook. You’ll get a clear understanding of the best neighborhoods to live, what type of housing and average rental price you’ll find in each of them. Consent I have read and accept the . Read . I want my FREE ebook Check your email Plus, you’ll receive our Newsletter with the most useful info to successfully re...",
+            "cleaned_snippet": "Do you want to know which area of Madrid would be a good fit for you? Download our FREE ebook. You’ll get a clear understanding of the best neighborhoods to live, what type of housing and average rental price you’ll find in each of them. Consent I have read and accept the. I want my FREE ebook Check your email Plus, you’ll receive our Newsletter with the most useful info to successfully re.",
+            "extracted_metrics": {},
+            "key_facts": [
+              "You’ll get a clear understanding of the best neighborhoods to live, what type of housing and average rental price you’ll find in each of them.",
+              "You’ll get a clear understanding of the best neighborhoods to live, what type of housing and average rental price you’ll find in each of them."
+            ],
+            "data_quality": "low",
+            "extraction_timestamp": "2025-06-27T09:21:09.820136"
+          }
+        },
+        {
+          "title": "2024 Buy Apartment Chamberí Madrid: Real Estate & Property ...",
+          "url": "https://www.veiranda.com/blog-details/best-areas-buy-apartment-chamber%C3%AD-96",
+          "snippet": "Chamberí, an illustrious and strategically located district in Madrid, is a top choice for those planning to buy an apartment Chamberí Madrid. This write-up delves into the dynamic real estate Chamberí 2024 market, offering perspectives on the finest areas to consider. We will dissect notable statistics such as the percentage of listings in each locale, median rent and purchase prices per square m...",
+          "engine": "google",
+          "score": 0.125,
+          "relevance_score": 14,
+          "content_enhanced": true,
+          "confidence_score": 56,
+          "confidence_level": "medium",
+          "score_breakdown": {
+            "domain_authority": 15,
+            "content_quality": 23,
+            "technical_quality": 10,
+            "recency_estimate": 8
+          },
+          "quality_metrics": {
+            "neighborhood_specificity": 4,
+            "query_relevance": 6,
+            "content_depth": 9,
+            "data_richness": 4
+          },
+          "rag_weight": 0.56,
+          "structured_data": {
+            "original_snippet": "Chamberí, an illustrious and strategically located district in Madrid, is a top choice for those planning to buy an apartment Chamberí Madrid. This write-up delves into the dynamic real estate Chamberí 2024 market, offering perspectives on the finest areas to consider. We will dissect notable statistics such as the percentage of listings in each locale, median rent and purchase prices per square m...",
+            "cleaned_snippet": "Chamberí, an illustrious and strategically located district in Madrid, is a top choice for those planning to buy an apartment Chamberí Madrid. This write-up delves into the dynamic real estate Chamberí 2024 market, offering perspectives on the finest areas to consider. We will dissect notable statistics such as the percentage of listings in each locale, median rent and purchase prices per square m.",
+            "extracted_metrics": {},
+            "key_facts": [
+              "This write-up delves into the dynamic real estate Chamberí 2024 market, offering perspectives on the finest areas to consider.",
+              "We will dissect notable statistics such as the percentage of listings in each locale, median rent and purchase prices per square m."
+            ],
+            "data_quality": "low",
+            "extraction_timestamp": "2025-06-27T09:21:09.822561"
+          }
+        },
+        {
+          "title": "12 hottest real estate areas in Madrid in 2025 – Investropa",
+          "url": "https://investropa.com/blogs/news/madrid-which-area",
+          "snippet": "Anna Siudzińska is a skilled business strategist and experienced manager, specializing in sales, marketing, and corporate growth. With a wealth of experience in international markets, she possesses in-depth knowledge of Madrid’s real estate sector, guiding clients toward profitable investments and market advantages. | At Investropa, we study the Madrid real estate market every day. Our team doesn'...",
+          "engine": "google",
+          "score": 3.0,
+          "relevance_score": 12,
+          "content_enhanced": true,
+          "confidence_score": 55,
+          "confidence_level": "medium",
+          "score_breakdown": {
+            "domain_authority": 15,
+            "content_quality": 20,
+            "technical_quality": 10,
+            "recency_estimate": 10
+          },
+          "quality_metrics": {
+            "neighborhood_specificity": 4,
+            "query_relevance": 7,
+            "content_depth": 7,
+            "data_richness": 2
+          },
+          "rag_weight": 0.55,
+          "structured_data": {
+            "original_snippet": "Anna Siudzińska is a skilled business strategist and experienced manager, specializing in sales, marketing, and corporate growth. With a wealth of experience in international markets, she possesses in-depth knowledge of Madrid’s real estate sector, guiding clients toward profitable investments and market advantages. | At Investropa, we study the Madrid real estate market every day. Our team doesn'...",
+            "cleaned_snippet": "Anna Siudzińska is a skilled business strategist and experienced manager, specializing in sales, marketing, and corporate growth. With a wealth of experience in international markets, she possesses in-depth knowledge of Madrid’s real estate sector, guiding clients toward profitable investments and market advantages. Our team doesn'.",
+            "extracted_metrics": {},
+            "key_facts": [
+              "Anna Siudzińska is a skilled business strategist and experienced manager, specializing in sales, marketing, and corporate growth.",
+              "With a wealth of experience in international markets, she possesses in-depth knowledge of Madrid’s real estate sector, guiding clients toward profitable investments and market advantages.",
+              "| At Investropa, we study the Madrid real estate market every day."
+            ],
+            "data_quality": "low",
+            "extraction_timestamp": "2025-06-27T09:21:09.825777"
+          }
+        },
+        {
+          "title": "Madrid Real Estate Market Overview & Forecast (2025 & 2026) | The Luxury Playbook",
+          "url": "https://theluxuryplaybook.com/madrid-real-estate-market/",
+          "snippet": "The Madrid Housing Market in 2025 continues to perform as one of Spain’s most robust and active real estate environments. With demand outpacing supply in both purchase and rental sectors, property values have risen steadily across nearly all districts. Price increases are driven by a combination of low interest rates, increased foreign investment, population growth, and renewed urban development. ...",
+          "engine": "google",
+          "score": 2.3333333333333335,
+          "relevance_score": 12,
+          "content_enhanced": true,
+          "confidence_score": 50,
+          "confidence_level": "medium",
+          "score_breakdown": {
+            "domain_authority": 15,
+            "content_quality": 15,
+            "technical_quality": 10,
+            "recency_estimate": 10
+          },
+          "quality_metrics": {
+            "neighborhood_specificity": 4,
+            "query_relevance": 7,
+            "content_depth": 2,
+            "data_richness": 2
+          },
+          "rag_weight": 0.5,
+          "structured_data": {
+            "original_snippet": "The Madrid Housing Market in 2025 continues to perform as one of Spain’s most robust and active real estate environments. With demand outpacing supply in both purchase and rental sectors, property values have risen steadily across nearly all districts. Price increases are driven by a combination of low interest rates, increased foreign investment, population growth, and renewed urban development. ...",
+            "cleaned_snippet": "The Madrid Housing Market in 2025 continues to perform as one of Spain’s most robust and active real estate environments. With demand outpacing supply in both purchase and rental sectors, property values have risen steadily across nearly all districts. Price increases are driven by a combination of low interest rates, increased foreign investment, population growth, and renewed urban development.",
+            "extracted_metrics": {},
+            "key_facts": [
+              "The Madrid Housing Market in 2025 continues to perform as one of Spain’s most robust and active real estate environments.",
+              "Price increases are driven by a combination of low interest rates, increased foreign investment, population growth, and renewed urban development.",
+              "With demand outpacing supply in both purchase and rental sectors, property values have risen steadily across nearly all districts.",
+              "With demand outpacing supply in both purchase and rental sectors, property values have risen steadily across nearly all districts.",
+              "Price increases are driven by a combination of low interest rates, increased foreign investment, population growth, and renewed urban development."
+            ],
+            "data_quality": "low",
+            "extraction_timestamp": "2025-06-27T09:21:09.829096"
+          }
+        },
+        {
+          "title": "Top Neighborhoods for Investment Properties in Madrid",
+          "url": "https://the-one-properties.com/blog/top-neighborhoods-for-investment-properties-in-madrid",
+          "snippet": "Madrid, the vibrant capital of Spain, is not only a cultural and historical hub but also an attractive destination for real estate investors. With its dynamic economy and thriving tourism industry, investing in Madrid's property market can yield substantial returns. Whether you're looking to buy a rental property or flip houses, understanding the top neighborhoods for investment is crucial. | When...",
+          "engine": "google",
+          "score": 0.3333333333333333,
+          "relevance_score": 12,
+          "content_enhanced": true,
+          "confidence_score": 41,
+          "confidence_level": "low",
+          "score_breakdown": {
+            "domain_authority": 15,
+            "content_quality": 11,
+            "technical_quality": 10,
+            "recency_estimate": 5
+          },
+          "quality_metrics": {
+            "neighborhood_specificity": 2,
+            "query_relevance": 7,
+            "content_depth": 2,
+            "data_richness": 0
+          },
+          "rag_weight": 0.41,
+          "structured_data": {
+            "original_snippet": "Madrid, the vibrant capital of Spain, is not only a cultural and historical hub but also an attractive destination for real estate investors. With its dynamic economy and thriving tourism industry, investing in Madrid's property market can yield substantial returns. Whether you're looking to buy a rental property or flip houses, understanding the top neighborhoods for investment is crucial. | When...",
+            "cleaned_snippet": "Madrid, the vibrant capital of Spain, is not only a cultural and historical hub but also an attractive destination for real estate investors. With its dynamic economy and thriving tourism industry, investing in Madrid's property market can yield substantial returns. Whether you're looking to buy a rental property or flip houses, understanding the top neighborhoods for investment is crucial.",
+            "extracted_metrics": {},
+            "key_facts": [
+              "With its dynamic economy and thriving tourism industry, investing in Madrid's property market can yield substantial returns.",
+              "Whether you're looking to buy a rental property or flip houses, understanding the top neighborhoods for investment is crucial.",
+              "With its dynamic economy and thriving tourism industry, investing in Madrid's property market can yield substantial returns.",
+              "Whether you're looking to buy a rental property or flip houses, understanding the top neighborhoods for investment is crucial."
+            ],
+            "data_quality": "low",
+            "extraction_timestamp": "2025-06-27T09:21:09.830815"
+          }
+        }
+      ],
+      "search_term": "Chamberí,, Madrid real estate investment market analysis",
+      "search_engine": "searxng",
+      "instance_used": "https://searx.projectlounge.pw",
+      "response_time": "10.31s",
+      "total_results": 10,
+      "timestamp": "2025-06-27 09:20:52",
+      "content_extraction": {
+        "enhanced_count": 9,
+        "total_sources": 10
+      },
+      "confidence_analysis": {
+        "average_confidence": 42.5,
+        "max_confidence": 56,
+        "high_quality_sources": 0,
+        "total_sources": 10,
+        "confidence_distribution": {
+          "very_high": 0,
+          "high": 0,
+          "medium": 3,
+          "low": 5,
+          "very_low": 2
+        },
+        "overall_reliability": "low"
+      },
+      "structured_summary": {
+        "combined_metrics": {},
+        "key_facts": [
+          "With demand outpacing supply in both purchase and rental sectors, property values have risen steadily across nearly all districts.",
+          "The constant job creation, together with a GDP growth higher than the Spanish average, show this stability.",
+          "Whether you're looking to buy a rental property or flip houses, understanding the top neighborhoods for investment is crucial.",
+          "This write-up delves into the dynamic real estate Chamberí 2024 market, offering perspectives on the finest areas to consider.",
+          "You’ll get a clear understanding of the best neighborhoods to live, what type of housing and average rental price you’ll find in each of them.",
+          "At this point, Madrid reveals itself as a city endowed with sustained and predictable growth.",
+          "Price increases are driven by a combination of low interest rates, increased foreign investment, population growth, and renewed urban development.",
+          "With its dynamic economy and thriving tourism industry, investing in Madrid's property market can yield substantial returns.",
+          "Furthermore, Chamberí boasts three municipal markets: Guzmán el Bueno, Vallehermoso – recently refurbished with many stalls for gourmets - and Chamberí.",
+          "We will dissect notable statistics such as the percentage of listings in each locale, median rent and purchase prices per square m."
+        ],
+        "data_quality": "low",
+        "extraction_success": 10
+      }
+    }
+  },
+  "background_categories": [
+    "crime_rate",
+    "cleanliness",
+    "public_perception",
+    "general_info"
+  ],
+  "status": "priority_complete_background_processing",
+  "response_time": "27.24s",
+  "timestamp": "2025-06-27T09:21:09.832854",
+  "saved_at": "2025-06-27T09:21:09.832889",
+  "saved_to": "enrichment_results/chamberí_madrid_neighborhood_search_20250627_092109.json",
+  "search_type": "neighborhood_search"
+}

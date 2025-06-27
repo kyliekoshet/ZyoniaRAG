@@ -1,0 +1,120 @@
+{
+  "neighborhood": "Centro, Madrid",
+  "query": "Is it good for investment?",
+  "priority_category": "investment_potential",
+  "fast_mode": true,
+  "instant_results": {
+    "investment_potential": {
+      "sources": [
+        {
+          "title": "Centro Neighborhood of Madrid - The City Center - Madrid Estate",
+          "url": "https://madrid-estate.com/neighborhoods/centro",
+          "snippet": "The Centro neighborhood of Madrid is the oldest, most historic part of the city. It encompasses a diverse set of very lively neighborhoods.",
+          "engine": "brave",
+          "score": 1.0,
+          "relevance_score": 12,
+          "structured_data": {
+            "original_snippet": "The Centro neighborhood of Madrid is the oldest, most historic part of the city. It encompasses a diverse set of very lively neighborhoods.",
+            "cleaned_snippet": "The Centro neighborhood of Madrid is the oldest, most historic part of the city. It encompasses a diverse set of very lively neighborhoods.",
+            "extracted_metrics": {},
+            "key_facts": [],
+            "data_quality": "low",
+            "extraction_timestamp": "2025-06-27T09:36:52.300796"
+          }
+        },
+        {
+          "title": "Property for sale in Centro, Madrid, Spain: houses and flats — idealista",
+          "url": "https://www.idealista.com/en/venta-viviendas/madrid/centro/",
+          "snippet": "1,993 houses and flats for sale in Madrid - Centro, Spain, from 79,900 euros. Property in Madrid - Centro for sale direct from owners and real estate agents. idealista, the leading real estate marketplace in Spain.",
+          "engine": "brave",
+          "score": 0.6818181818181819,
+          "relevance_score": 12,
+          "structured_data": {
+            "original_snippet": "1,993 houses and flats for sale in Madrid - Centro, Spain, from 79,900 euros. Property in Madrid - Centro for sale direct from owners and real estate agents. idealista, the leading real estate marketplace in Spain.",
+            "cleaned_snippet": "Property in Madrid - Centro for sale direct from owners and real estate agents.",
+            "extracted_metrics": {},
+            "key_facts": [
+              "idealista, the leading real estate marketplace in Spain."
+            ],
+            "data_quality": "low",
+            "extraction_timestamp": "2025-06-27T09:36:52.309436"
+          }
+        },
+        {
+          "title": "THE 5 BEST Neighborhoods in Centro (Madrid) - Updated 2025",
+          "url": "https://www.tripadvisor.com/Attractions-g187514-Activities-c47-t34-zfn7249707-Madrid.html",
+          "snippet": "Top 5 Neighborhoods in Centro: See reviews and photos of Neighborhoods in Centro, Madrid (Spain) on Tripadvisor.",
+          "engine": "brave",
+          "score": 0.3333333333333333,
+          "relevance_score": 11,
+          "structured_data": {
+            "original_snippet": "Top 5 Neighborhoods in Centro: See reviews and photos of Neighborhoods in Centro, Madrid (Spain) on Tripadvisor.",
+            "cleaned_snippet": "Top 5 Neighborhoods in Centro: and photos of Neighborhoods in Centro, Madrid (Spain) on Tripadvisor.",
+            "extracted_metrics": {},
+            "key_facts": [],
+            "data_quality": "low",
+            "extraction_timestamp": "2025-06-27T09:36:52.311703"
+          }
+        },
+        {
+          "title": "Madrid's best areas to invest: guide for investors",
+          "url": "https://blog.dflatmadrid.com/en/areas-to-invest-in-madrid/",
+          "snippet": "Nov 3, 2024 — Madrid's areas have great potential for investment. 1. Barrio de ... These neighborhoods in the Centro district, close to Gran Vía and ...",
+          "engine": "brave",
+          "score": 3.0,
+          "relevance_score": 8,
+          "structured_data": {
+            "original_snippet": "Nov 3, 2024 — Madrid's areas have great potential for investment. 1. Barrio de ... These neighborhoods in the Centro district, close to Gran Vía and ...",
+            "cleaned_snippet": "Nov 3, 2024 — Madrid's areas have great potential for investment. These neighborhoods in the Centro district, close to Gran Vía and.",
+            "extracted_metrics": {},
+            "key_facts": [
+              "Nov 3, 2024 — Madrid's areas have great potential for investment."
+            ],
+            "data_quality": "low",
+            "extraction_timestamp": "2025-06-27T09:36:52.313811"
+          }
+        },
+        {
+          "title": "Centro (Madrid) - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Centro_(Madrid)",
+          "snippet": "Administratively, the district is divided into 6 neighborhoods (barrios):",
+          "engine": "brave",
+          "score": 1.0,
+          "relevance_score": 8,
+          "structured_data": {
+            "original_snippet": "Administratively, the district is divided into 6 neighborhoods (barrios):",
+            "cleaned_snippet": "Administratively, the district is divided into 6 neighborhoods (barrios):.",
+            "extracted_metrics": {},
+            "key_facts": [],
+            "data_quality": "low",
+            "extraction_timestamp": "2025-06-27T09:36:52.314669"
+          }
+        }
+      ],
+      "search_term": "Centro, Madrid investment_potential",
+      "search_engine": "searxng",
+      "instance_used": "https://searx.projectlounge.pw",
+      "response_time": "3.91s",
+      "total_results": 5,
+      "timestamp": "2025-06-27 09:36:52",
+      "structured_summary": {
+        "combined_metrics": {},
+        "key_facts": [
+          "idealista, the leading real estate marketplace in Spain.",
+          "Nov 3, 2024 — Madrid's areas have great potential for investment."
+        ],
+        "data_quality": "low",
+        "extraction_success": 5
+      }
+    }
+  },
+  "search_metadata": {
+    "total_time": "5.81s",
+    "timestamp": "2025-06-27T09:36:52.315468",
+    "search_engine": "searxng",
+    "mode": "fast"
+  },
+  "saved_at": "2025-06-27T09:36:52.315520",
+  "saved_to": "enrichment_results/centro_madrid_neighborhood_search_20250627_093652.json",
+  "search_type": "neighborhood_search"
+}
